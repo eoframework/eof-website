@@ -3,18 +3,18 @@ layout: home
 title: Home
 ---
 
-# Introduction
+# introduction
 
 Build a community around Exceptional Outcomes. Learn, contribute, and grow with our open-source initiative.
 
-# Templates
+# templates
 
 View and download templates grouped by technology vendors. Filter by practices like Cyber, Cloud, and AI.
 
-# Documentation
+# documentation
 
 Explore EO Framework documentation on processes, templates, and tools.
 
-# Contribute
+# contribute
 
 Join our community and help build the future of exceptional outcomes through collaboration and innovation.

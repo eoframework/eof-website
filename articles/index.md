@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Articles
+title: articles
 ---
-
-## Latest Articles
 
 Read the latest insights and updates on the EO Framework.

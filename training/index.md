@@ -1,8 +1,5 @@
 ---
 layout: page
-title: Training
+title: training
 ---
-
-## Upcoming Training
-
 Stay updated with our upcoming training sessions.

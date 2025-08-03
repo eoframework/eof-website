@@ -44,7 +44,8 @@
 
 .site-nav .page-link {
   color: #c00;
-  font-weight: 500;
+  font-weight: normal;
+  font-size: 1.1em;
   transition: color 0.3s ease;
   line-height: normal;
 }
@@ -67,10 +68,16 @@
 
 .page-content h1 {
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 .page-content h1:first-child {
   margin-top: 0;
+}
+
+/* Hide the Home page heading */
+.home .page-heading {
+  display: none;
 }
 
 /* Footer customization */
@@ -81,7 +88,7 @@
 
 .footer-content {
   background: #f4f4f4;
-  padding: 0.25rem 1rem;
+  padding: 1rem 1rem 0.25rem 1rem;
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
