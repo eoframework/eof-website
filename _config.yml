@@ -1,7 +1,7 @@
 title: EO Framework
 description: Exceptional Outcome Framework for Community Collaboration
-baseurl: ""
-url: ""
+baseurl: "/eof-website"
+url: "https://eoframework.github.io"
 theme: minima
 plugins:
   - jekyll-feed
