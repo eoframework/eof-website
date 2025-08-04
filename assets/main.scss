@@ -15,7 +15,7 @@
 
 .header-content {
   background: #f4f4f4;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 1rem 0.25rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@
 
 .site-nav .trigger {
   display: flex;
-  gap: 30px;
+  gap: 15px;
 }
 
 .site-nav .page-link {
@@ -94,7 +94,176 @@
   margin: 0 auto;
 }
 
+/* Home page layout */
+.home-layout {
+  display: flex;
+  gap: 2rem;
+  margin: 0 -1rem;
+  padding: 0 1rem;
+}
+
+.main-content {
+  flex: 0 0 70%;
+}
+
+.sidebar {
+  flex: 0 0 29%;
+}
+
+.sidebar-section {
+  padding: 0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
+
+.sidebar-section h3 {
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  min-height: 2rem;
+}
+
+.sidebar-section .action-links {
+  padding: 1rem 1.5rem;
+}
+
+.sidebar-section .training-list,
+.sidebar-section .articles-list {
+  padding: 0.75rem 1.5rem 0.5rem 1.5rem;
+}
+
+.action-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.action-links li {
+  margin-bottom: 0.5rem;
+}
+
+.action-links a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.action-links a:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+
+.training-item {
+  display: block;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.training-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.training-item:hover {
+  text-decoration: none;
+}
+
+.training-item:hover h4 {
+  color: #c00;
+}
+
+.training-item:hover .training-date {
+  color: #c00;
+}
+
+.training-item h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1em;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.training-date {
+  margin: 0.25rem 0;
+  font-size: 0.9em;
+  color: #666;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.training-duration {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.85em;
+  color: #888;
+}
+
+/* Articles section styles */
+.article-item {
+  display: block;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.article-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.article-item:hover {
+  text-decoration: none;
+}
+
+.article-item:hover h4 {
+  color: #c00;
+}
+
+.article-item:hover .article-date {
+  color: #c00;
+}
+
+.article-item h4 {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.article-date {
+  font-size: 1em;
+  color: #666;
+  font-weight: inherit;
+  transition: color 0.3s ease;
+}
+
 /* Mobile responsiveness */
+@media screen and (max-width: 800px) {
+  .home-layout {
+    flex-direction: column;
+  }
+  
+  .main-content,
+  .sidebar {
+    flex: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header-content {
     flex-direction: column;
