@@ -80,6 +80,33 @@
   display: none;
 }
 
+
+
+/* CTA buttons styling */
+.cta-buttons {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #c00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #800;
+  color: white;
+  text-decoration: none;
+}
+
 /* Footer customization */
 .site-footer {
   border-top: none;
@@ -189,17 +216,17 @@
 }
 
 .training-item h4 {
-  margin: 0 0 0.5rem 0;
+  margin: 0;
   font-size: 1em;
   color: #333;
   transition: color 0.3s ease;
 }
 
 .training-date {
-  margin: 0.25rem 0;
+  margin: 0;
   font-size: 0.9em;
-  color: #666;
-  font-weight: 500;
+  color: #c00;
+  font-weight: normal;
   transition: color 0.3s ease;
 }
 
@@ -246,10 +273,16 @@
 }
 
 .article-date {
-  font-size: 1em;
-  color: #666;
-  font-weight: inherit;
+  font-size: 0.9em;
+  color: #c00;
+  font-weight: normal;
   transition: color 0.3s ease;
+}
+
+/* Key points styling */
+.key-term {
+  color: #c00;
+  font-weight: normal;
 }
 
 /* Mobile responsiveness */
