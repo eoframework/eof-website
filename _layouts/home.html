@@ -42,42 +42,21 @@ layout: default
       </div>
       
       <div class="sidebar-section">
-        <h3>latest articles</h3>
+        <h3>latest articles <span class="rss-subscribe-header"><a href="{{ "/feed.xml" | relative_url }}" target="_blank">subscribe via RSS</a></span></h3>
         <div class="articles-list">
-          <a href="/eof-website/articles/" class="article-item">
-            <h4>Building Effective Templates for Modern Teams <span class="article-date">- Jan 20, 2025</span></h4>
+          {% for post in site.posts limit:3 %}
+          <a href="{{ post.url | relative_url }}" class="article-item">
+            <h4>{{ post.title }} <span class="article-date">- {{ post.date | date: "%b %d, %Y" }}</span></h4>
           </a>
-          <a href="/eof-website/articles/" class="article-item">
-            <h4>Best Practices for Community Collaboration <span class="article-date">- Jan 18, 2025</span></h4>
+          {% endfor %}
+          {% if site.posts.size == 0 %}
+          <a href="{{ site.baseurl }}/articles/" class="article-item">
+            <h4>No articles yet <span class="article-date">- Coming Soon</span></h4>
           </a>
-          <a href="/eof-website/articles/" class="article-item">
-            <h4>Getting Started with EO Framework <span class="article-date">- Jan 16, 2025</span></h4>
-          </a>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
 
 </div>

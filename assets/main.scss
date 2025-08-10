@@ -147,12 +147,13 @@
 .sidebar-section h3 {
   background: #f4f4f4;
   margin: 0;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
   font-size: 1.2em;
   font-weight: bold;
   color: #333;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   min-height: 2rem;
 }
 
@@ -279,11 +280,83 @@
   transition: color 0.3s ease;
 }
 
+/* RSS subscribe in header */
+.rss-subscribe-header a {
+  color: #c00;
+  text-decoration: none;
+  font-size: 0.75em;
+  font-weight: normal;
+  transition: color 0.3s ease;
+}
+
+.rss-subscribe-header a:hover {
+  color: #800;
+  text-decoration: underline;
+}
+
 /* Key points styling */
 .key-term {
   color: #c00;
   font-weight: normal;
 }
+
+/* Post metadata styling */
+.post-meta {
+  color: #c00;
+  font-weight: normal;
+}
+
+.post-header .post-meta {
+  color: #c00;
+}
+
+/* Post content heading styling */
+.post-content h2 {
+  font-size: 1.3em;
+}
+
+/* Simplified articles page styles */
+.simplified-articles-list {
+  margin-top: 0.25rem;
+}
+
+.simplified-article-item {
+  display: flex;
+  align-items: baseline;
+  padding: 0 0 0.75rem 0;
+  border-bottom: 1px solid #e8e8e8;
+  gap: 1rem;
+}
+
+.simplified-article-item:last-child {
+  border-bottom: none;
+}
+
+.simplified-article-title {
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: normal;
+  flex: 0 1 auto;
+  transition: color 0.3s ease;
+}
+
+.simplified-article-title:visited {
+  color: #000 !important;
+}
+
+.simplified-article-title:hover {
+  color: #c00 !important;
+  text-decoration: underline;
+}
+
+.simplified-article-date {
+  color: #c00;
+  font-size: 0.9em;
+  font-weight: normal;
+  flex-shrink: 0;
+}
+
 
 /* Mobile responsiveness */
 @media screen and (max-width: 800px) {
@@ -294,6 +367,12 @@
   .main-content,
   .sidebar {
     flex: none;
+  }
+  
+  .simplified-article-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
   }
 }
 
