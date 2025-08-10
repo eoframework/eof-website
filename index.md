@@ -7,11 +7,22 @@ title: Home
 
 # introduction
 
-The <span class="key-term">Exceptional Outcomes (EO) Framework</span> is a community-driven standard that accelerates technology solution sales and delivery. It addresses the <a href="{{ site.baseurl }}/challenges/" style="color: #c00; text-decoration: underline;">common challenges and pain points</a> faced throughout the project lifecycle by providing templates, processes, and automation scripts to help clients, vendors, and consulting teams achieve consistent, measurable, and repeatable success.
+The <span class="key-term">Exceptional Outcomes (EO) Framework</span> is a community-driven standard that accelerates technology solution sales and delivery. It addresses the <a href="{{ site.baseurl }}/challenges/" style="color: #c00; text-decoration: underline;">common challenges and pain points</a> faced throughout the project lifecycle by providing templates, processes, and automation scripts to help clients, technology vendors, and solution providers achieve consistent, measurable, and repeatable success.
 
-- <span class="key-term">Template-Driven</span> – Pre-sales & Delivery templates for every stage.
-- <span class="key-term">Vendor-Aligned</span> – Mapped to leading technology provider across cloud, infrastructure, and security domains.
-- <span class="key-term">Community-Validated</span> – Contributed, Reviewed, and Improved by the EO community.
+<div style="display: flex; align-items: flex-start; gap: 2rem; margin: 1.5rem 0;">
+<div style="flex: 0 0 auto;">
+<img src="{{ site.baseurl }}/assets/images/EO_Framework.png" alt="EO Framework" style="max-width: 300px; height: auto;">
+</div>
+<div style="flex: 1;">
+<ul style="margin: 0; padding-left: 1rem;">
+<li style="margin-bottom: 0.75rem;"><span class="key-term">Template-Driven</span> – Pre-sales & Delivery templates for every stage.</li>
+<li style="margin-bottom: 0.75rem;"><span class="key-term">Vendor-Aligned</span> – Mapped to leading technology provider across cloud, infrastructure, and security domains.</li>
+<li style="margin-bottom: 0.75rem;"><span class="key-term">Community-Validated</span> – Contributed, Reviewed, and Improved by the EO community.</li>
+<li style="margin-bottom: 0.75rem;"><span class="key-term">Process-Focused</span> – Structured methodologies for consistent project execution.</li>
+<li style="margin-bottom: 0;"><span class="key-term">Results-Oriented</span> – Measurable outcomes that demonstrate tangible value.</li>
+</ul>
+</div>
+</div>
 
 # templates
 
