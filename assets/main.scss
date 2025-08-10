@@ -379,6 +379,20 @@ html {
     align-items: flex-start;
     gap: 0.25rem;
   }
+  
+  /* Stack image and bullet points on mobile */
+  div[style*="display: flex"][style*="align-items: flex-start"] {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  div[style*="display: flex"][style*="align-items: flex-start"] div:first-child {
+    margin-bottom: 1rem;
+  }
+  
+  div[style*="display: flex"][style*="align-items: flex-start"] ul {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
