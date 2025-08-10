@@ -5,6 +5,11 @@
 
 /* Custom overrides for EO Framework */
 
+/* Prevent header shift by always showing scrollbar */
+html {
+  overflow-y: scroll;
+}
+
 /* Header customization */
 .site-header {
   border-top: none;

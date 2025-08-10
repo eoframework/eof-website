@@ -24,10 +24,6 @@ The <span class="key-term">Exceptional Outcomes (EO) Framework</span> is a commu
 </div>
 </div>
 
-# templates
-
-View and download templates grouped by technology vendors. Filter by practices like Cyber, Cloud, and AI.
-
 # benefits
 
 Discover how the EO Framework delivers value to all stakeholders through reduced risk, accelerated delivery, and predictable outcomes across the technology lifecycle.
@@ -36,10 +32,6 @@ Discover how the EO Framework delivers value to all stakeholders through reduced
 - <span class="key-term">Technology Providers</span> – Better Solution Adoption.
 - <span class="key-term">Solution Providers</span> – Predictable Project Execution, High-Quality Outcomes.
 
-# documentation
-
-Explore EO Framework documentation on processes, templates, and tools.
-
-# contribute
+# quick start
 
 Join our community and help build the future of exceptional outcomes through collaboration and innovation.
