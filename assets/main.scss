@@ -320,6 +320,51 @@ html {
   font-size: 1.3em;
 }
 
+/* Articles page layout */
+.articles-layout {
+  display: flex;
+  gap: 2rem;
+  margin: 0 -1rem;
+  padding: 0 1rem;
+}
+
+.articles-main-content {
+  flex: 0 0 80%;
+}
+
+.articles-sidebar {
+  flex: 0 0 18%;
+}
+
+/* Year filter in sidebar */
+.year-filter-list {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.year-filter-link {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.year-filter-link:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+
+.year-filter-link.active {
+  color: #c00 !important;
+  font-weight: bold !important;
+}
+
+.year-filter-link.active:hover {
+  text-decoration: none;
+}
+
 /* Simplified articles page styles */
 .simplified-articles-list {
   margin-top: 0.25rem;
@@ -331,6 +376,7 @@ html {
   padding: 0 0 0.75rem 0;
   border-bottom: 1px solid #e8e8e8;
   gap: 1rem;
+  transition: opacity 0.3s ease;
 }
 
 .simplified-article-item:last-child {
@@ -365,12 +411,15 @@ html {
 
 /* Mobile responsiveness */
 @media screen and (max-width: 800px) {
-  .home-layout {
+  .home-layout,
+  .articles-layout {
     flex-direction: column;
   }
   
   .main-content,
-  .sidebar {
+  .sidebar,
+  .articles-main-content,
+  .articles-sidebar {
     flex: none;
   }
   
