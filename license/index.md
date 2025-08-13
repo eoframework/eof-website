@@ -4,6 +4,9 @@ title: EO Framework™ License
 permalink: /license/
 ---
 
+<div class="articles-layout">
+<div class="articles-main-content" markdown="1">
+
 The <span class="key-term">Exceptional Outcomes (EO) Framework</span> is licensed under the <span class="key-term">Business Source License (BSL) 1.1</span>, which provides broad usage rights while protecting the commercial interests of the framework's development and maintenance.
 
 ## Business Source License Overview
@@ -84,7 +87,7 @@ A: For specific legal questions about your use case, consult with a qualified at
 
 ## License Text
 
-The complete Business Source License 1.1 text is available at: [https://mariadb.com/bsl11/](https://mariadb.com/bsl11/)
+The complete Business Source License 1.1 text is available at: [https://mariadb.com/bsl11/](https://mariadb.com/bsl11/){:style="color: #c00; text-decoration: underline;"}
 
 <span class="key-term">Parameters for EO Framework™:</span>
 - <span class="key-term">Licensor</span>: EO Framework™ Community
@@ -96,11 +99,24 @@ The complete Business Source License 1.1 text is available at: [https://mariadb.
 ## Contact
 
 For licensing questions or clarification about specific use cases, please contact:
-- <span class="key-term">Email</span>: [licensing@eoframework.org](mailto:licensing@eoframework.org)
-- <span class="key-term">GitHub Issues</span>: [EO Framework™ Repository](https://github.com/eoframework/eof-website/issues)
+- <span class="key-term">Email</span>: [licensing@eoframework.org](mailto:licensing@eoframework.org){:style="color: #000;"}
+- <span class="key-term">GitHub Issues</span>: [EO Framework™ Repository](https://github.com/eoframework/eof-website/issues){:style="color: #000;"}
 
 ## Summary
 
 The Business Source License provides you with the freedom to use, modify, and integrate the EO Framework™ for virtually all business and personal purposes while supporting the sustainable development of the framework. After January 1, 2028, the framework will become available under the Apache 2.0 License, providing even broader usage rights.
 
 *This page provides a summary of the license terms. The full license text governs your use of the EO Framework™.*
+
+</div>
+
+<div class="articles-sidebar">
+  <div class="sidebar-section">
+    <h3>related links</h3>
+    <div class="related-links-list">
+      <a href="{{ site.baseurl }}/" class="year-filter-link">home</a>
+      <a href="https://mariadb.com/bsl11/" target="_blank" class="year-filter-link">BSL 1.1 License</a>
+    </div>
+  </div>
+</div>
+</div>

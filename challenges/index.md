@@ -3,10 +3,10 @@ layout: page
 title: challenges
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="articles-layout">
+<div class="articles-main-content" markdown="1">
+
 <h1>Challenges and Pain Points in the Pre-Sales Phase</h1>
-<a href="{{ site.baseurl }}/" style="text-decoration: none; color: #c00;">← Back to Home</a>
-</div>
 
 - <span style="color: #c00;">Incomplete or ambiguous requirements</span> gathered during pre-sales, increasing the risk of scope creep.
 
@@ -50,4 +50,14 @@ title: challenges
 
 ---
 
-[← Back to Home]({{ site.baseurl }}/)
+</div>
+
+<div class="articles-sidebar">
+  <div class="sidebar-section">
+    <h3>related links</h3>
+    <div class="related-links-list">
+      <a href="{{ site.baseurl }}/" class="year-filter-link">home</a>
+    </div>
+  </div>
+</div>
+</div>

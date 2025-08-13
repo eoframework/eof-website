@@ -342,6 +342,22 @@ html {
   text-align: center;
 }
 
+/* Related links section for license page */
+.related-links-list {
+  padding: 0.5rem 1.5rem;
+  text-align: left;
+}
+
+.related-links-list .year-filter-link {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+.related-links-list .year-filter-link:hover {
+  color: #c00 !important;
+  text-decoration: underline !important;
+}
+
 .year-filter-link {
   display: block;
   color: #000;
