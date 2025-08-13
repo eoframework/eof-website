@@ -960,6 +960,51 @@ html {
   font-size: 1.3em;
 }
 
+/* Articles page layout */
+.articles-layout {
+  display: flex;
+  gap: 2rem;
+  margin: 0 -1rem;
+  padding: 0 1rem;
+}
+
+.articles-main-content {
+  flex: 0 0 80%;
+}
+
+.articles-sidebar {
+  flex: 0 0 18%;
+}
+
+/* Year filter in sidebar */
+.year-filter-list {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.year-filter-link {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.year-filter-link:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+
+.year-filter-link.active {
+  color: #c00 !important;
+  font-weight: bold !important;
+}
+
+.year-filter-link.active:hover {
+  text-decoration: none;
+}
+
 /* Simplified articles page styles */
 .simplified-articles-list {
   margin-top: 0.25rem;
@@ -971,6 +1016,7 @@ html {
   padding: 0 0 0.75rem 0;
   border-bottom: 1px solid #e8e8e8;
   gap: 1rem;
+  transition: opacity 0.3s ease;
 }
 
 .simplified-article-item:last-child {
@@ -1002,14 +1048,244 @@ html {
   flex-shrink: 0;
 }
 
+/* Documentation page layout */
+.docs-layout {
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+  min-height: 70vh;
+}
+
+.docs-toc {
+  flex: 0 0 20%;
+}
+
+.docs-content {
+  flex: 1;
+  max-width: 800px;
+}
+
+/* TOC styling - using sidebar section style */
+.docs-toc .sidebar-section {
+  position: sticky;
+  top: 1rem;
+  padding: 0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
+
+.docs-toc .sidebar-section h3 {
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2rem;
+}
+
+.docs-toc .toc-nav {
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.toc-section {
+  margin-bottom: 0.25rem;
+}
+
+.toc-main-item {
+  display: block;
+  padding: 0.25rem 0;
+  background: transparent;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  transition: color 0.2s ease;
+  border: none;
+  border-radius: 0;
+}
+
+.toc-main-item:hover {
+  background: transparent;
+  color: #c00;
+  text-decoration: none;
+}
+
+.toc-main-item.active {
+  background: transparent;
+  color: #c00;
+  font-weight: bold;
+}
+
+.toc-subsections {
+  margin-top: 0.25rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.toc-sub-item {
+  display: block;
+  padding: 0.15rem 0;
+  background: transparent;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.2s ease;
+  border: none;
+  border-radius: 0;
+}
+
+.toc-sub-item:hover {
+  background: transparent;
+  color: #c00;
+  text-decoration: none;
+}
+
+.toc-sub-item.active {
+  background: transparent;
+  color: #c00;
+  font-weight: bold;
+}
+
+/* Content panel styling - flat */
+.content-panel {
+  background: transparent;
+  border: none;
+  min-height: auto;
+  padding: 0;
+}
+
+.content-section {
+  display: none;
+  padding: 0;
+}
+
+.content-section.active {
+  display: block;
+}
+
+.content-header {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.content-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.breadcrumb {
+  color: #888;
+  font-size: 0.85em;
+}
+
+.breadcrumb span {
+  color: #c00;
+}
+
+.content-body {
+  line-height: 1.4;
+  font-size: 1em;
+}
+
+.content-body h3 {
+  color: #333;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Custom heading class for license page */
+.license-heading {
+  color: #333;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0.75rem 0 0.5rem 0;
+}
+
+.content-body ul,
+.content-body ol {
+  margin: 0.8rem 0;
+  padding-left: 1.5rem;
+}
+
+.content-body li {
+  margin-bottom: 0.3rem;
+}
+
+.content-body p {
+  margin: 0.8rem 0;
+  color: #444;
+}
+
+/* Content navigation styling */
+.content-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.nav-previous, .nav-next {
+  flex: 0 0 auto;
+}
+
+.nav-previous a, .nav-next a {
+  color: #c00;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-previous a:hover, .nav-next a:hover {
+  text-decoration: underline;
+}
+
+.nav-label {
+  color: #c00;
+}
+
+.nav-content {
+  color: #333;
+}
+
 /* Mobile responsiveness */
 @media screen and (max-width: 800px) {
-  .home-layout {
+  .home-layout,
+  .articles-layout,
+  .docs-layout {
     flex-direction: column;
   }
   .main-content,
-  .sidebar {
+  .sidebar,
+  .articles-main-content,
+  .articles-sidebar,
+  .docs-toc,
+  .docs-content {
     flex: none;
+  }
+  .toc-container {
+    position: relative;
+    top: auto;
   }
   .simplified-article-item {
     flex-direction: column;

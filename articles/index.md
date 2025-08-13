@@ -19,7 +19,7 @@ title: articles
     </div>
 
     {% if site.posts.size == 0 %}
-    <p>No articles available yet. Check back soon for the latest insights on the EO Framework.</p>
+    <p>No articles available yet. Check back soon for the latest insights on the EO Framework™.</p>
     {% endif %}
   </div>
   

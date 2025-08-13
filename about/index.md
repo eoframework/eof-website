@@ -3,13 +3,13 @@ layout: page
 title: about
 ---
 
-# What is the EO Framework?
+# What is the EO Framework™?
 
 The <span class="key-term">Exceptional Outcomes (EO) Framework</span> is a comprehensive methodology designed to accelerate technology solution sales and delivery through standardized templates, proven processes, and intelligent automation.
 
 ### overview of goals
 
-The EO Framework aims to create predictable, measurable, and repeatable success across the technology lifecycle by providing stakeholders with battle-tested resources and methodologies.
+The EO Framework™ aims to create predictable, measurable, and repeatable success across the technology lifecycle by providing stakeholders with battle-tested resources and methodologies.
 
 ### who it serves
 
@@ -20,7 +20,7 @@ The EO Framework aims to create predictable, measurable, and repeatable success 
 
 ### why it exists
 
-Traditional technology implementations often suffer from inconsistent approaches, inadequate planning, and communication gaps. The EO Framework addresses these challenges by providing a unified standard that ensures exceptional outcomes across all stakeholder groups.
+Traditional technology implementations often suffer from inconsistent approaches, inadequate planning, and communication gaps. The EO Framework™ addresses these challenges by providing a unified standard that ensures exceptional outcomes across all stakeholder groups.
 
 # How It Works
 

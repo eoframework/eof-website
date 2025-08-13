@@ -100,14 +100,14 @@ title: documentation
           
           <h3>Core Principles</h3>
           <ul>
-            <li><strong>Template-Driven Approach</strong> - Standardized processes for consistent outcomes</li>
-            <li><strong>Community Collaboration</strong> - Shared knowledge and best practices</li>
-            <li><strong>Measurable Results</strong> - Quantifiable success metrics</li>
-            <li><strong>Lifecycle Management</strong> - End-to-end project support</li>
+            <li><span class="key-term">Template-Driven Approach</span> - Standardized processes for consistent outcomes</li>
+            <li><span class="key-term">Community Collaboration</span> - Shared knowledge and best practices</li>
+            <li><span class="key-term">Measurable Results</span> - Quantifiable success metrics</li>
+            <li><span class="key-term">Lifecycle Management</span> - End-to-end project support</li>
           </ul>
           
           <h3>Framework Benefits</h3>
-          <p>The EO Framework delivers value across all stakeholders:</p>
+          <p>The EO Framework™ delivers value across all stakeholders:</p>
           <ul>
             <li><span class="key-term">Clients</span> - Reduced risk and faster delivery</li>
             <li><span class="key-term">Technology Providers</span> - Better solution adoption</li>
@@ -153,15 +153,15 @@ title: documentation
           <h2>Create Template</h2>
         </div>
         <div class="content-body">
-          <p>Guidelines for creating new templates within the EO Framework.</p>
+          <p>Guidelines for creating new templates within the EO Framework™.</p>
           
           <h3>Template Creation Process</h3>
           <ol>
-            <li><strong>Define Scope</strong> - Identify the specific use case and requirements</li>
-            <li><strong>Research Best Practices</strong> - Review existing templates and industry standards</li>
-            <li><strong>Design Structure</strong> - Create template framework and sections</li>
-            <li><strong>Add Content</strong> - Populate with detailed guidance and examples</li>
-            <li><strong>Review and Test</strong> - Validate with stakeholders and pilot projects</li>
+            <li><span class="key-term">Define Scope</span> - Identify the specific use case and requirements</li>
+            <li><span class="key-term">Research Best Practices</span> - Review existing templates and industry standards</li>
+            <li><span class="key-term">Design Structure</span> - Create template framework and sections</li>
+            <li><span class="key-term">Add Content</span> - Populate with detailed guidance and examples</li>
+            <li><span class="key-term">Review and Test</span> - Validate with stakeholders and pilot projects</li>
           </ol>
           
           <h3>Template Components</h3>
@@ -192,10 +192,10 @@ title: documentation
           
           <h3>Review Criteria</h3>
           <ul>
-            <li><strong>Accuracy</strong> - Technical content is correct and up-to-date</li>
-            <li><strong>Completeness</strong> - All necessary sections and information included</li>
-            <li><strong>Clarity</strong> - Content is clear, well-organized, and easy to follow</li>
-            <li><strong>Applicability</strong> - Template addresses real-world use cases</li>
+            <li><span class="key-term">Accuracy</span> - Technical content is correct and up-to-date</li>
+            <li><span class="key-term">Completeness</span> - All necessary sections and information included</li>
+            <li><span class="key-term">Clarity</span> - Content is clear, well-organized, and easy to follow</li>
+            <li><span class="key-term">Applicability</span> - Template addresses real-world use cases</li>
           </ul>
           
           <h3>Review Process</h3>
@@ -226,10 +226,10 @@ title: documentation
           
           <h3>Search Methods</h3>
           <ul>
-            <li><strong>By Technology</strong> - Filter templates by specific technology vendors</li>
-            <li><strong>By Use Case</strong> - Find templates for specific business scenarios</li>
-            <li><strong>By Industry</strong> - Locate industry-specific implementations</li>
-            <li><strong>By Complexity</strong> - Choose based on project size and complexity</li>
+            <li><span class="key-term">By Technology</span> - Filter templates by specific technology vendors</li>
+            <li><span class="key-term">By Use Case</span> - Find templates for specific business scenarios</li>
+            <li><span class="key-term">By Industry</span> - Locate industry-specific implementations</li>
+            <li><span class="key-term">By Complexity</span> - Choose based on project size and complexity</li>
           </ul>
           
           <h3>Template Categories</h3>
@@ -261,12 +261,12 @@ title: documentation
           
           <h3>Request Process</h3>
           <ol>
-            <li><strong>Search Existing Templates</strong> - Verify no suitable template exists</li>
-            <li><strong>Define Requirements</strong> - Specify detailed template requirements</li>
-            <li><strong>Submit Request</strong> - Use the template request form</li>
-            <li><strong>Community Review</strong> - Request is evaluated by the community</li>
-            <li><strong>Development Assignment</strong> - Template creation is assigned</li>
-            <li><strong>Delivery and Testing</strong> - New template is created and validated</li>
+            <li><span class="key-term">Search Existing Templates</span> - Verify no suitable template exists</li>
+            <li><span class="key-term">Define Requirements</span> - Specify detailed template requirements</li>
+            <li><span class="key-term">Submit Request</span> - Use the template request form</li>
+            <li><span class="key-term">Community Review</span> - Request is evaluated by the community</li>
+            <li><span class="key-term">Development Assignment</span> - Template creation is assigned</li>
+            <li><span class="key-term">Delivery and Testing</span> - New template is created and validated</li>
           </ol>
           
           <h3>Request Information</h3>
@@ -331,11 +331,11 @@ title: documentation
           
           <h3>Script Development Process</h3>
           <ol>
-            <li><strong>Requirements Analysis</strong> - Define automation needs and scope</li>
-            <li><strong>Design Planning</strong> - Create script architecture and flow</li>
-            <li><strong>Development</strong> - Write and test individual script components</li>
-            <li><strong>Integration</strong> - Combine components into complete solution</li>
-            <li><strong>Validation</strong> - Test scripts in controlled environment</li>
+            <li><span class="key-term">Requirements Analysis</span> - Define automation needs and scope</li>
+            <li><span class="key-term">Design Planning</span> - Create script architecture and flow</li>
+            <li><span class="key-term">Development</span> - Write and test individual script components</li>
+            <li><span class="key-term">Integration</span> - Combine components into complete solution</li>
+            <li><span class="key-term">Validation</span> - Test scripts in controlled environment</li>
           </ol>
           
           <h3>Best Practices</h3>
@@ -366,20 +366,20 @@ title: documentation
           
           <h3>Execution Process</h3>
           <ol>
-            <li><strong>Pre-execution Checklist</strong> - Verify environment and prerequisites</li>
-            <li><strong>Backup and Recovery</strong> - Create system backups before execution</li>
-            <li><strong>Monitoring Setup</strong> - Configure logging and monitoring</li>
-            <li><strong>Script Execution</strong> - Run scripts with proper oversight</li>
-            <li><strong>Validation</strong> - Verify successful completion and results</li>
-            <li><strong>Post-execution Tasks</strong> - Clean up and documentation</li>
+            <li><span class="key-term">Pre-execution Checklist</span> - Verify environment and prerequisites</li>
+            <li><span class="key-term">Backup and Recovery</span> - Create system backups before execution</li>
+            <li><span class="key-term">Monitoring Setup</span> - Configure logging and monitoring</li>
+            <li><span class="key-term">Script Execution</span> - Run scripts with proper oversight</li>
+            <li><span class="key-term">Validation</span> - Verify successful completion and results</li>
+            <li><span class="key-term">Post-execution Tasks</span> - Clean up and documentation</li>
           </ol>
           
           <h3>Safety Measures</h3>
           <ul>
-            <li><strong>Testing</strong> - Always test scripts in non-production first</li>
-            <li><strong>Approval Process</strong> - Get stakeholder sign-off before execution</li>
-            <li><strong>Rollback Plan</strong> - Have recovery procedures ready</li>
-            <li><strong>Monitoring</strong> - Watch for issues during execution</li>
+            <li><span class="key-term">Testing</span> - Always test scripts in non-production first</li>
+            <li><span class="key-term">Approval Process</span> - Get stakeholder sign-off before execution</li>
+            <li><span class="key-term">Rollback Plan</span> - Have recovery procedures ready</li>
+            <li><span class="key-term">Monitoring</span> - Watch for issues during execution</li>
           </ul>
         </div>
         <div class="content-navigation">
@@ -397,7 +397,7 @@ title: documentation
           <h2>User Guide</h2>
         </div>
         <div class="content-body">
-          <p>Comprehensive guide for end users working with the EO Framework platform and tools.</p>
+          <p>Comprehensive guide for end users working with the EO Framework™ platform and tools.</p>
           
           <h3>Overview</h3>
           <p>This user guide provides step-by-step instructions for:</p>
@@ -423,7 +423,7 @@ title: documentation
           <h2>Getting Started</h2>
         </div>
         <div class="content-body">
-          <p>Quick start guide to begin using the EO Framework effectively.</p>
+          <p>Quick start guide to begin using the EO Framework™ effectively.</p>
           
           <h3>Initial Setup</h3>
           <ol>
@@ -456,15 +456,15 @@ title: documentation
           <h2>Navigation</h2>
         </div>
         <div class="content-body">
-          <p>Guide to navigating the EO Framework platform interface and features.</p>
+          <p>Guide to navigating the EO Framework™ platform interface and features.</p>
           
           <h3>Main Navigation</h3>
           <ul>
-            <li><strong>Home</strong> - Dashboard and overview</li>
-            <li><strong>Templates</strong> - Browse and manage templates</li>
-            <li><strong>Documentation</strong> - Comprehensive guides and references</li>
-            <li><strong>Training</strong> - Educational resources and sessions</li>
-            <li><strong>Articles</strong> - Latest news and insights</li>
+            <li><span class="key-term">Home</span> - Dashboard and overview</li>
+            <li><span class="key-term">Templates</span> - Browse and manage templates</li>
+            <li><span class="key-term">Documentation</span> - Comprehensive guides and references</li>
+            <li><span class="key-term">Training</span> - Educational resources and sessions</li>
+            <li><span class="key-term">Articles</span> - Latest news and insights</li>
           </ul>
         </div>
         <div class="content-navigation">
@@ -508,7 +508,7 @@ title: documentation
           <h2>Best Practices</h2>
         </div>
         <div class="content-body">
-          <p>Proven strategies and recommendations for successful EO Framework implementation.</p>
+          <p>Proven strategies and recommendations for successful EO Framework™ implementation.</p>
           
           <h3>General Best Practices</h3>
           <ul>
@@ -533,10 +533,10 @@ title: documentation
           <h2>Developer Guide</h2>
         </div>
         <div class="content-body">
-          <p>Technical documentation for developers integrating with and extending the EO Framework.</p>
+          <p>Technical documentation for developers integrating with and extending the EO Framework™.</p>
           
           <h3>Development Overview</h3>
-          <p>The EO Framework provides various integration points for developers:</p>
+          <p>The EO Framework™ provides various integration points for developers:</p>
           <ul>
             <li>REST API for programmatic access</li>
             <li>Template development guidelines</li>
@@ -559,7 +559,7 @@ title: documentation
           <h2>Setup Environment</h2>
         </div>
         <div class="content-body">
-          <p>Instructions for setting up development environment for EO Framework integration.</p>
+          <p>Instructions for setting up development environment for EO Framework™ integration.</p>
           
           <h3>Prerequisites</h3>
           <ul>
@@ -584,14 +584,14 @@ title: documentation
           <h2>API Reference</h2>
         </div>
         <div class="content-body">
-          <p>Complete reference documentation for EO Framework APIs and endpoints.</p>
+          <p>Complete reference documentation for EO Framework™ APIs and endpoints.</p>
           
           <h3>Core API Endpoints</h3>
           <ul>
-            <li><strong>Templates API</strong> - CRUD operations for templates</li>
-            <li><strong>Projects API</strong> - Project management and tracking</li>
-            <li><strong>Users API</strong> - User profile and authentication</li>
-            <li><strong>Community API</strong> - Community interactions and content</li>
+            <li><span class="key-term">Templates API</span> - CRUD operations for templates</li>
+            <li><span class="key-term">Projects API</span> - Project management and tracking</li>
+            <li><span class="key-term">Users API</span> - User profile and authentication</li>
+            <li><span class="key-term">Community API</span> - Community interactions and content</li>
           </ul>
         </div>
         <div class="content-navigation">
@@ -609,7 +609,7 @@ title: documentation
           <h2>Integration Patterns</h2>
         </div>
         <div class="content-body">
-          <p>Common patterns and approaches for integrating EO Framework into existing systems.</p>
+          <p>Common patterns and approaches for integrating EO Framework™ into existing systems.</p>
           
           <h3>Integration Approaches</h3>
           <ul>
@@ -634,7 +634,7 @@ title: documentation
           <h2>Testing Guidelines</h2>
         </div>
         <div class="content-body">
-          <p>Best practices and guidelines for testing EO Framework integrations and customizations.</p>
+          <p>Best practices and guidelines for testing EO Framework™ integrations and customizations.</p>
           
           <h3>Testing Strategy</h3>
           <ul>
@@ -659,7 +659,7 @@ title: documentation
           <h2>Deployment</h2>
         </div>
         <div class="content-body">
-          <p>Guidelines for deploying EO Framework integrations to production environments.</p>
+          <p>Guidelines for deploying EO Framework™ integrations to production environments.</p>
           
           <h3>Deployment Process</h3>
           <ol>
@@ -685,7 +685,7 @@ title: documentation
           <h2>Advocacy Guide</h2>
         </div>
         <div class="content-body">
-          <p>Guide for community advocates and champions promoting EO Framework adoption and engagement.</p>
+          <p>Guide for community advocates and champions promoting EO Framework™ adoption and engagement.</p>
           
           <h3>Advocacy Goals</h3>
           <p>Effective advocacy focuses on:</p>
@@ -711,7 +711,7 @@ title: documentation
           <h2>Community Engagement</h2>
         </div>
         <div class="content-body">
-          <p>Strategies for building and maintaining active community engagement around the EO Framework.</p>
+          <p>Strategies for building and maintaining active community engagement around the EO Framework™.</p>
           
           <h3>Engagement Activities</h3>
           <ul>
@@ -736,7 +736,7 @@ title: documentation
           <h2>Content Creation</h2>
         </div>
         <div class="content-body">
-          <p>Guidelines for creating effective content to support EO Framework adoption and education.</p>
+          <p>Guidelines for creating effective content to support EO Framework™ adoption and education.</p>
           
           <h3>Content Types</h3>
           <ul>
@@ -761,7 +761,7 @@ title: documentation
           <h2>Event Planning</h2>
         </div>
         <div class="content-body">
-          <p>Guide for organizing and hosting EO Framework community events and training sessions.</p>
+          <p>Guide for organizing and hosting EO Framework™ community events and training sessions.</p>
           
           <h3>Event Types</h3>
           <ul>
@@ -795,7 +795,7 @@ title: documentation
           <h2>Examples</h2>
         </div>
         <div class="content-body">
-          <p>Real-world examples and practical implementations of the EO Framework across various technology domains.</p>
+          <p>Real-world examples and practical implementations of the EO Framework™ across various technology domains.</p>
           
           <h3>Example Categories</h3>
           <p>Our examples cover a wide range of technology scenarios:</p>
@@ -823,14 +823,14 @@ title: documentation
           <h2>Cloud Migration</h2>
         </div>
         <div class="content-body">
-          <p>Examples of successful cloud migration projects using EO Framework templates and processes.</p>
+          <p>Examples of successful cloud migration projects using EO Framework™ templates and processes.</p>
           
           <h3>Migration Scenarios</h3>
           <ul>
-            <li><strong>Lift and Shift</strong> - Moving existing applications to cloud infrastructure</li>
-            <li><strong>Re-platforming</strong> - Optimizing applications for cloud-native services</li>
-            <li><strong>Refactoring</strong> - Restructuring applications for microservices architecture</li>
-            <li><strong>Hybrid Cloud</strong> - Implementing multi-cloud and hybrid strategies</li>
+            <li><span class="key-term">Lift and Shift</span> - Moving existing applications to cloud infrastructure</li>
+            <li><span class="key-term">Re-platforming</span> - Optimizing applications for cloud-native services</li>
+            <li><span class="key-term">Refactoring</span> - Restructuring applications for microservices architecture</li>
+            <li><span class="key-term">Hybrid Cloud</span> - Implementing multi-cloud and hybrid strategies</li>
           </ul>
           
           <h3>Key Benefits Achieved</h3>
@@ -856,14 +856,14 @@ title: documentation
           <h2>Security Implementation</h2>
         </div>
         <div class="content-body">
-          <p>Examples of comprehensive security implementations following EO Framework best practices.</p>
+          <p>Examples of comprehensive security implementations following EO Framework™ best practices.</p>
           
           <h3>Security Focus Areas</h3>
           <ul>
-            <li><strong>Zero Trust Architecture</strong> - Implementing comprehensive identity and access management</li>
-            <li><strong>Compliance Frameworks</strong> - SOX, HIPAA, PCI DSS, and GDPR implementations</li>
-            <li><strong>Threat Detection</strong> - Advanced monitoring and incident response systems</li>
-            <li><strong>Data Protection</strong> - Encryption, backup, and disaster recovery solutions</li>
+            <li><span class="key-term">Zero Trust Architecture</span> - Implementing comprehensive identity and access management</li>
+            <li><span class="key-term">Compliance Frameworks</span> - SOX, HIPAA, PCI DSS, and GDPR implementations</li>
+            <li><span class="key-term">Threat Detection</span> - Advanced monitoring and incident response systems</li>
+            <li><span class="key-term">Data Protection</span> - Encryption, backup, and disaster recovery solutions</li>
           </ul>
           
           <h3>Implementation Results</h3>
@@ -889,14 +889,14 @@ title: documentation
           <h2>Data Modernization</h2>
         </div>
         <div class="content-body">
-          <p>Examples of data platform modernization projects leveraging EO Framework methodologies.</p>
+          <p>Examples of data platform modernization projects leveraging EO Framework™ methodologies.</p>
           
           <h3>Modernization Approaches</h3>
           <ul>
-            <li><strong>Data Lake Implementation</strong> - Building scalable data storage and processing platforms</li>
-            <li><strong>Analytics Platform</strong> - Implementing self-service analytics and BI solutions</li>
-            <li><strong>Real-time Processing</strong> - Stream processing and event-driven architectures</li>
-            <li><strong>Data Governance</strong> - Establishing data quality and lineage frameworks</li>
+            <li><span class="key-term">Data Lake Implementation</span> - Building scalable data storage and processing platforms</li>
+            <li><span class="key-term">Analytics Platform</span> - Implementing self-service analytics and BI solutions</li>
+            <li><span class="key-term">Real-time Processing</span> - Stream processing and event-driven architectures</li>
+            <li><span class="key-term">Data Governance</span> - Establishing data quality and lineage frameworks</li>
           </ul>
           
           <h3>Business Outcomes</h3>
@@ -922,14 +922,14 @@ title: documentation
           <h2>DevOps Transformation</h2>
         </div>
         <div class="content-body">
-          <p>Examples of successful DevOps transformations using EO Framework automation and best practices.</p>
+          <p>Examples of successful DevOps transformations using EO Framework™ automation and best practices.</p>
           
           <h3>Transformation Areas</h3>
           <ul>
-            <li><strong>CI/CD Pipelines</strong> - Automated build, test, and deployment processes</li>
-            <li><strong>Infrastructure as Code</strong> - Automated infrastructure provisioning and management</li>
-            <li><strong>Monitoring and Observability</strong> - Comprehensive system monitoring and alerting</li>
-            <li><strong>Culture and Processes</strong> - Agile development and collaborative practices</li>
+            <li><span class="key-term">CI/CD Pipelines</span> - Automated build, test, and deployment processes</li>
+            <li><span class="key-term">Infrastructure as Code</span> - Automated infrastructure provisioning and management</li>
+            <li><span class="key-term">Monitoring and Observability</span> - Comprehensive system monitoring and alerting</li>
+            <li><span class="key-term">Culture and Processes</span> - Agile development and collaborative practices</li>
           </ul>
           
           <h3>Performance Improvements</h3>
@@ -955,14 +955,14 @@ title: documentation
           <h2>Integration Scenarios</h2>
         </div>
         <div class="content-body">
-          <p>Examples of complex system integration projects implemented using EO Framework patterns.</p>
+          <p>Examples of complex system integration projects implemented using EO Framework™ patterns.</p>
           
           <h3>Integration Types</h3>
           <ul>
-            <li><strong>API Management</strong> - Centralized API gateway and management platforms</li>
-            <li><strong>Event-Driven Architecture</strong> - Microservices communication and orchestration</li>
-            <li><strong>Data Integration</strong> - ETL/ELT processes and data synchronization</li>
-            <li><strong>Legacy Modernization</strong> - Connecting legacy systems with modern applications</li>
+            <li><span class="key-term">API Management</span> - Centralized API gateway and management platforms</li>
+            <li><span class="key-term">Event-Driven Architecture</span> - Microservices communication and orchestration</li>
+            <li><span class="key-term">Data Integration</span> - ETL/ELT processes and data synchronization</li>
+            <li><span class="key-term">Legacy Modernization</span> - Connecting legacy systems with modern applications</li>
           </ul>
           
           <h3>Integration Benefits</h3>
@@ -988,21 +988,21 @@ title: documentation
           <h2>Case Studies</h2>
         </div>
         <div class="content-body">
-          <p>Detailed case studies showcasing successful EO Framework implementations across various industries.</p>
+          <p>Detailed case studies showcasing successful EO Framework™ implementations across various industries.</p>
           
           <h3>Featured Case Studies</h3>
           <ul>
-            <li><strong>Global Financial Services Firm</strong> - Multi-cloud migration and modernization</li>
-            <li><strong>Healthcare Provider Network</strong> - HIPAA-compliant data platform implementation</li>
-            <li><strong>Retail E-commerce Platform</strong> - Scalable microservices architecture transformation</li>
-            <li><strong>Manufacturing Enterprise</strong> - IoT and Industry 4.0 digital transformation</li>
+            <li><span class="key-term">Global Financial Services Firm</span> - Multi-cloud migration and modernization</li>
+            <li><span class="key-term">Healthcare Provider Network</span> - HIPAA-compliant data platform implementation</li>
+            <li><span class="key-term">Retail E-commerce Platform</span> - Scalable microservices architecture transformation</li>
+            <li><span class="key-term">Manufacturing Enterprise</span> - IoT and Industry 4.0 digital transformation</li>
           </ul>
           
           <h3>Study Components</h3>
           <p>Each case study includes:</p>
           <ul>
             <li>Project background and requirements</li>
-            <li>EO Framework templates and processes used</li>
+            <li>EO Framework™ templates and processes used</li>
             <li>Implementation timeline and milestones</li>
             <li>Challenges faced and solutions applied</li>
             <li>Quantifiable business outcomes achieved</li>
