@@ -374,7 +374,7 @@ html {
 
 .year-filter-link.active {
   color: #c00 !important;
-  font-weight: bold !important;
+  font-weight: normal !important;
 }
 
 .year-filter-link.active:hover {
@@ -645,6 +645,77 @@ html {
   color: #333;
 }
 
+/* Templates page table compact styling */
+.articles-layout table {
+  margin-bottom: 0.5rem;
+  table-layout: fixed;
+}
+
+.articles-layout table th,
+.articles-layout table td {
+  font-size: 0.85em;
+  padding: 0.4rem 0.5rem;
+}
+
+.articles-layout table th:nth-child(1),
+.articles-layout table td:nth-child(1) {
+  width: 16%;
+}
+
+.articles-layout table th:nth-child(2),
+.articles-layout table td:nth-child(2) {
+  width: 20%;
+}
+
+.articles-layout table th:nth-child(3),
+.articles-layout table td:nth-child(3) {
+  width: 42%;
+}
+
+.articles-layout table th:nth-child(4),
+.articles-layout table td:nth-child(4) {
+  width: 8%;
+}
+
+.articles-layout table th:nth-child(5),
+.articles-layout table td:nth-child(5) {
+  width: 8%;
+}
+
+.articles-layout table th:nth-child(6),
+.articles-layout table td:nth-child(6) {
+  width: 6%;
+}
+
+.articles-layout table td:nth-child(4) a,
+.articles-layout table td:nth-child(5) a {
+  color: #c00;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.articles-layout table td:nth-child(4) a:hover,
+.articles-layout table td:nth-child(5) a:hover {
+  color: #c00;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Filter sections with fixed height and scroll */
+.articles-sidebar .sidebar-section .related-links-list {
+  max-height: 32vh;
+  overflow-y: auto;
+  padding: 0.5rem 1.5rem;
+}
+
+.provider-heading {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 1rem 0 0.5rem 0;
+  color: #c00;
+}
+
+
 /* Mobile responsiveness */
 @media screen and (max-width: 800px) {
   .home-layout,
@@ -686,6 +757,7 @@ html {
   div[style*="display: flex"][style*="align-items: flex-start"] ul {
     max-width: 100%;
   }
+  
 }
 
 @media screen and (max-width: 600px) {
