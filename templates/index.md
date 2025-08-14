@@ -10,7 +10,7 @@ View and download templates grouped by technology vendors. Filter by practices l
 
 <div id="filter-status" style="margin: 1rem 0 0 0; padding: 0.5rem 0.5rem 0 0.5rem; display: none; text-align: right; font-size: 0.85em;">
   <span style="font-weight: 500; color: #333; padding-right: 0.25rem;">Active Filters:</span> <span id="active-filters"></span>
-  <button id="clear-filters" style="margin-left: 1rem; padding: 0.25rem 0.5rem; background: transparent; color: #c00; border: none; border-radius: 3px; cursor: pointer; text-decoration: underline; font-size: 1em;">Clear All Filters</button>
+  <button id="clear-filters" style="margin-left: 1rem; padding: 0.25rem 0.5rem; background: transparent; color: #c00; border: none; border-radius: 3px; cursor: pointer; text-decoration: underline; font-size: 0.85em;">Clear All Filters</button>
 </div>
 
 <div id="no-match-message" style="margin: 1rem 0; padding: 0; text-align: center; color: #555; font-size: 1em; display: none;">
