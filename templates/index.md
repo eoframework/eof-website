@@ -8,6 +8,15 @@ title: templates
 
 View and download templates grouped by technology vendors. Filter by practices like Cyber, Cloud, and AI.
 
+<div id="filter-status" style="margin: 1rem 0 0 0; padding: 0.5rem 0.5rem 0 0.5rem; display: none; text-align: right; font-size: 0.85em;">
+  <span style="font-weight: 500; color: #333; padding-right: 0.25rem;">Active Filters:</span> <span id="active-filters"></span>
+  <button id="clear-filters" style="margin-left: 1rem; padding: 0.25rem 0.5rem; background: transparent; color: #c00; border: none; border-radius: 3px; cursor: pointer; text-decoration: underline; font-size: 1em;">Clear All Filters</button>
+</div>
+
+<div id="no-match-message" style="margin: 1rem 0; padding: 0; text-align: center; color: #555; font-size: 1em; display: none;">
+  No templates match the selected filter criteria.
+</div>
+
 {% assign providers = site.data.templates | group_by: 'Provider' | sort: 'name' %}
 {% for provider_group in providers %}
   <div class="provider-heading">{{ provider_group.name }}</div>
@@ -153,6 +162,71 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     });
+    
+    updateFilterStatus();
+    checkForNoMatches();
   }
+  
+  function updateFilterStatus() {
+    const filterStatus = document.getElementById('filter-status');
+    const activeFilters = document.getElementById('active-filters');
+    
+    const filters = [];
+    if (selectedProvider !== 'all') {
+      filters.push(`<span style="color: #c00;">Provider:</span> ${selectedProvider}`);
+    }
+    if (selectedCategory !== 'all') {
+      filters.push(`<span style="color: #c00;">Category:</span> ${selectedCategory}`);
+    }
+    
+    if (filters.length > 0) {
+      activeFilters.innerHTML = filters.join(', ');
+      filterStatus.style.display = 'block';
+    } else {
+      filterStatus.style.display = 'none';
+    }
+  }
+  
+  function checkForNoMatches() {
+    const noMatchMessage = document.getElementById('no-match-message');
+    const visibleProviderHeadings = document.querySelectorAll('.provider-heading[style="display: block"], .provider-heading:not([style*="display: none"])');
+    
+    // Check if any provider sections are actually visible and have content
+    let hasVisibleContent = false;
+    visibleProviderHeadings.forEach(heading => {
+      if (heading.style.display !== 'none') {
+        const table = heading.nextElementSibling;
+        if (table && table.tagName === 'TABLE' && table.style.display !== 'none') {
+          const visibleRows = table.querySelectorAll('tbody tr:not([style*="display: none"])');
+          if (visibleRows.length > 0) {
+            hasVisibleContent = true;
+          }
+        }
+      }
+    });
+    
+    if (!hasVisibleContent && (selectedProvider !== 'all' || selectedCategory !== 'all')) {
+      noMatchMessage.style.display = 'block';
+    } else {
+      noMatchMessage.style.display = 'none';
+    }
+  }
+  
+  // Clear filters functionality
+  document.getElementById('clear-filters').addEventListener('click', function() {
+    selectedProvider = 'all';
+    selectedCategory = 'all';
+    
+    // Reset filter link states
+    providerFilters.forEach(f => f.classList.remove('active'));
+    categoryFilters.forEach(f => f.classList.remove('active'));
+    
+    const allProviderFilter = document.querySelector('.provider-filter[data-provider="all"]');
+    const allCategoryFilter = document.querySelector('.category-filter[data-category="all"]');
+    if (allProviderFilter) allProviderFilter.classList.add('active');
+    if (allCategoryFilter) allCategoryFilter.classList.add('active');
+    
+    applyFilters();
+  });
 });
 </script>
