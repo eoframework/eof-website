@@ -126,8 +126,8 @@ document.addEventListener('DOMContentLoaded', function() {
           const table = section.nextElementSibling;
           if (table && table.tagName === 'TABLE') {
             if (selectedCategory === 'all') {
-              section.style.display = 'block';
-              table.style.display = 'block';
+              section.style.display = '';
+              table.style.display = '';
               // Show all rows
               const rows = table.querySelectorAll('tbody tr');
               rows.forEach(row => row.style.display = 'table-row');
@@ -146,8 +146,8 @@ document.addEventListener('DOMContentLoaded', function() {
               });
               // Only show provider heading and table if there are matching rows
               if (hasMatchingRows) {
-                section.style.display = 'block';
-                table.style.display = 'block';
+                section.style.display = '';
+                table.style.display = '';
               } else {
                 section.style.display = 'none';
                 table.style.display = 'none';

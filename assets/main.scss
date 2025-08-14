@@ -649,12 +649,14 @@ html {
 .articles-layout table {
   margin-bottom: 0.5rem;
   table-layout: fixed;
+  border-collapse: collapse;
 }
 
 .articles-layout table th,
 .articles-layout table td {
   font-size: 0.85em;
   padding: 0.4rem 0.5rem;
+  border: 1px solid #ddd;
 }
 
 .articles-layout table th:nth-child(1),
