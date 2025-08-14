@@ -659,6 +659,21 @@ html {
   border: 1px solid #ddd;
 }
 
+/* Search input styling */
+#search-input {
+  border: 1px solid #ddd !important;
+  outline: none !important;
+}
+
+#search-input:focus {
+  border: 1px solid #bbb !important;
+  box-shadow: none !important;
+}
+
+#search-input:active {
+  border: 1px solid #bbb !important;
+}
+
 .articles-layout table th:nth-child(1),
 .articles-layout table td:nth-child(1) {
   width: 16%;
