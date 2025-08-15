@@ -1043,8 +1043,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const targetSection = document.getElementById(sectionId);
     if (targetSection) {
       targetSection.classList.add('active');
-      // Scroll to top of content area
-      targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
   

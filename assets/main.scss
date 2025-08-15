@@ -135,11 +135,11 @@ html {
 }
 
 .main-content {
-  flex: 0 0 70%;
+  flex: 0 0 73%;
 }
 
 .sidebar {
-  flex: 0 0 29%;
+  flex: 0 0 26%;
 }
 
 .sidebar-section {
@@ -501,7 +501,6 @@ html {
 .toc-main-item.active {
   background: transparent;
   color: #c00;
-  font-weight: bold;
 }
 
 .toc-subsections {
@@ -518,7 +517,7 @@ html {
   background: transparent;
   color: #666;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 0.95em;
   transition: color 0.2s ease;
   border: none;
   border-radius: 0;
@@ -533,7 +532,6 @@ html {
 .toc-sub-item.active {
   background: transparent;
   color: #c00;
-  font-weight: bold;
 }
 
 /* Content panel styling - flat */
