@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>templates | EO Framework</title>
+<title>templates | EO Framework™</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="templates" />
 <meta property="og:locale" content="en_US" />
@@ -11,19 +11,19 @@
 <meta property="og:description" content="Exceptional Outcome Framework for Community Collaboration" />
 <link rel="canonical" href="http://localhost:4000/eof-website/templates/" />
 <meta property="og:url" content="http://localhost:4000/eof-website/templates/" />
-<meta property="og:site_name" content="EO Framework" />
+<meta property="og:site_name" content="EO Framework™" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="templates" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","description":"Exceptional Outcome Framework for Community Collaboration","headline":"templates","url":"http://localhost:4000/eof-website/templates/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/eof-website/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/eof-website/feed.xml" title="EO Framework" /></head>
+<link rel="stylesheet" href="/eof-website/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/eof-website/feed.xml" title="EO Framework™" /></head>
 <body><header class="site-header" role="banner">
   <div class="header-content">
     <div class="logo">
       <a class="site-title" rel="author" href="/eof-website/">
-        <img src="/eof-website/assets/images/eo-framework-logo.png" alt="EO Framework" class="logo-img">
+        <img src="/eof-website/assets/images/eo-framework-logo.png" alt="EO Framework™" class="logo-img">
       </a>
     </div>
 
@@ -41,7 +41,6 @@
         <a class="page-link" href="/eof-website/">home</a>
         <a class="page-link" href="/eof-website/templates/">templates</a>
         <a class="page-link" href="/eof-website/docs/">docs</a>
-        <a class="page-link" href="/eof-website/training/">training</a>
         <a class="page-link" href="/eof-website/articles/">articles</a>
         <a class="page-link" href="/eof-website/advocacy/">advocacy</a>
       </div>
@@ -56,7 +55,703 @@
   </header>
 
   <div class="post-content">
+    <div class="articles-layout">
+<div class="articles-main-content">
+
     <p>View and download templates grouped by technology vendors. Filter by practices like Cyber, Cloud, and AI.</p>
+
+    <div style="margin: 1rem 0; display: flex; justify-content: space-between; align-items: center;">
+  <div></div>
+  <div style="display: flex; align-items: center; gap: 1rem;">
+    <div style="width: 200px; padding-right: 1rem;">
+      <input type="text" id="search-input" placeholder="Search templates..." style="width: 100%; padding: 0.35rem 0.5rem; border: 1px solid #ddd; border-radius: 3px; font-size: 0.85em;" />
+    </div>
+    <div id="filter-status" style="display: none; text-align: right; font-size: 0.85em; white-space: nowrap;">
+      <span style="font-weight: 500; color: #333; padding-right: 0.25rem;">Active Filters:</span> <span id="active-filters"></span>
+      <button id="clear-filters" style="margin-left: 1rem; padding: 0.25rem 0.5rem; background: transparent; color: #c00; border: none; border-radius: 3px; cursor: pointer; text-decoration: underline; font-size: 0.85em;">Clear All Filters</button>
+    </div>
+  </div>
+</div>
+
+    <div id="no-match-message" style="margin: 1rem 0; padding: 0; text-align: center; color: #555; font-size: 1em; display: none;">
+  No templates match the selected filter criteria.
+</div>
+
+    <div class="provider-heading">AWS</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Cloud Infrastructure</td>
+        <td>EC2 Deployment</td>
+        <td>Comprehensive EC2 instance deployment and configuration</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/aws/cloud-infrastructure/ec2-deployment/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/aws/cloud-infrastructure/ec2-deployment/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Security</td>
+        <td>IAM Implementation</td>
+        <td>Identity and Access Management setup and best practices</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/aws/security/iam-implementation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/aws/security/iam-implementation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Data Analytics</td>
+        <td>Redshift Data Warehouse</td>
+        <td>Enterprise data warehouse solution using Amazon Redshift</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/aws/data-analytics/redshift-data-warehouse/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/aws/data-analytics/redshift-data-warehouse/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">Azure</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Cloud Infrastructure</td>
+        <td>Virtual Machine Deployment</td>
+        <td>Azure VM deployment with best practices and security</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/azure/cloud-infrastructure/virtual-machine-deployment/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/azure/cloud-infrastructure/virtual-machine-deployment/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Security</td>
+        <td>Azure AD Integration</td>
+        <td>Active Directory integration and SSO implementation</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/azure/security/azure-ad-integration/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/azure/security/azure-ad-integration/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>DevOps</td>
+        <td>Azure DevOps Pipeline</td>
+        <td>CI/CD pipeline setup and configuration</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/azure/devops/azure-devops-pipeline/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/azure/devops/azure-devops-pipeline/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">Cisco</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Networking</td>
+        <td>SD-WAN Deployment</td>
+        <td>Software-defined wide area network implementation</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/cisco/networking/sd-wan-deployment/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/cisco/networking/sd-wan-deployment/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Security</td>
+        <td>ISE Implementation</td>
+        <td>Identity Services Engine deployment</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/cisco/security/ise-implementation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/cisco/security/ise-implementation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Collaboration</td>
+        <td>Webex Platform</td>
+        <td>Enterprise collaboration platform deployment</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/cisco/collaboration/webex-platform/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/cisco/collaboration/webex-platform/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">Google Cloud</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Machine Learning</td>
+        <td>Vertex AI Implementation</td>
+        <td>ML model deployment using Google Vertex AI</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/google-cloud/machine-learning/vertex-ai-implementation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/google-cloud/machine-learning/vertex-ai-implementation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Data Analytics</td>
+        <td>BigQuery Analytics</td>
+        <td>Big data analytics platform implementation</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/google-cloud/data-analytics/bigquery-analytics/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/google-cloud/data-analytics/bigquery-analytics/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Container Platform</td>
+        <td>GKE Deployment</td>
+        <td>Google Kubernetes Engine cluster setup</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/google-cloud/container-platform/gke-deployment/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/google-cloud/container-platform/gke-deployment/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">IBM</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Enterprise Integration</td>
+        <td>IBM MQ Implementation</td>
+        <td>Message queuing middleware deployment</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/ibm/enterprise-integration/ibm-mq-implementation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/ibm/enterprise-integration/ibm-mq-implementation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>AI/Analytics</td>
+        <td>Watson Analytics</td>
+        <td>AI-powered business intelligence solution</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/ibm/ai-analytics/watson-analytics/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/ibm/ai-analytics/watson-analytics/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Mainframe</td>
+        <td>z/OS Modernization</td>
+        <td>Legacy mainframe system modernization</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/ibm/mainframe/zos-modernization/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/ibm/mainframe/zos-modernization/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">Microsoft</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Productivity</td>
+        <td>Office 365 Migration</td>
+        <td>Enterprise Office 365 deployment and migration</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/microsoft/productivity/office-365-migration/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/microsoft/productivity/office-365-migration/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Database</td>
+        <td>SQL Server Implementation</td>
+        <td>Enterprise database deployment and optimization</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/microsoft/database/sql-server-implementation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/microsoft/database/sql-server-implementation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Business Intelligence</td>
+        <td>Power BI Analytics</td>
+        <td>Self-service business intelligence solution</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/microsoft/business-intelligence/power-bi-analytics/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/microsoft/business-intelligence/power-bi-analytics/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">Nutanix</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Hyper-Converged</td>
+        <td>HCI Deployment</td>
+        <td>Hyperconverged infrastructure implementation</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/nutanix/hyper-converged/hci-deployment/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/nutanix/hyper-converged/hci-deployment/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Database</td>
+        <td>Era Database Management</td>
+        <td>Database lifecycle management platform</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/nutanix/database/era-database-management/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/nutanix/database/era-database-management/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Cloud Platform</td>
+        <td>Calm Automation</td>
+        <td>Multi-cloud application lifecycle management</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/nutanix/cloud-platform/calm-automation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/nutanix/cloud-platform/calm-automation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">Oracle</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Database</td>
+        <td>Oracle Cloud Database</td>
+        <td>Enterprise database cloud migration</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/oracle/database/oracle-cloud-database/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/oracle/database/oracle-cloud-database/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Enterprise Applications</td>
+        <td>ERP Cloud Implementation</td>
+        <td>Oracle ERP cloud deployment</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/oracle/enterprise-applications/erp-cloud-implementation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/oracle/enterprise-applications/erp-cloud-implementation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Integration</td>
+        <td>OIC Implementation</td>
+        <td>Oracle Integration Cloud platform setup</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/oracle/integration/oic-implementation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/oracle/integration/oic-implementation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+    <div class="provider-heading">VMware</div>
+    <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Solution Name</th>
+        <th>Description</th>
+        <th>Pre Sales</th>
+        <th>Delivery</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>Virtualization</td>
+        <td>vSphere Infrastructure</td>
+        <td>Virtual infrastructure deployment and management</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/vmware/virtualization/vsphere-infrastructure/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/vmware/virtualization/vsphere-infrastructure/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Cloud Platform</td>
+        <td>vCloud Foundation</td>
+        <td>Private cloud platform implementation</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/vmware/cloud-platform/vcloud-foundation/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/vmware/cloud-platform/vcloud-foundation/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+      <tr>
+        <td>Security</td>
+        <td>NSX Network Security</td>
+        <td>Software-defined networking and security</td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/vmware/security/nsx-network-security/presales" target="_blank">templates</a></td>
+        <td><a href="https://github.com/eoframework/templates/tree/main/vmware/security/nsx-network-security/delivery" target="_blank">templates</a></td>
+        <td>Active</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  </div>
+
+<div class="articles-sidebar">
+  <div class="sidebar-section">
+    <h3>filter by provider</h3>
+    <div class="related-links-list">
+      <a href="#" class="year-filter-link provider-filter" data-provider="all">All Providers</a>
+      
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="AWS">AWS</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="Azure">Azure</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="Cisco">Cisco</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="Google Cloud">Google Cloud</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="IBM">IBM</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="Microsoft">Microsoft</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="Nutanix">Nutanix</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="Oracle">Oracle</a>
+      
+      <a href="#" class="year-filter-link provider-filter" data-provider="VMware">VMware</a>
+      
+    </div>
+  </div>
+  
+  <div class="sidebar-section">
+    <h3>filter by category</h3>
+    <div class="related-links-list">
+      <a href="#" class="year-filter-link category-filter" data-category="all">All Categories</a>
+      
+      
+      <a href="#" class="year-filter-link category-filter" data-category="AI/Analytics">AI/Analytics</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Business Intelligence">Business Intelligence</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Cloud Infrastructure">Cloud Infrastructure</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Cloud Platform">Cloud Platform</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Collaboration">Collaboration</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Container Platform">Container Platform</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Data Analytics">Data Analytics</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Database">Database</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="DevOps">DevOps</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Enterprise Applications">Enterprise Applications</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Enterprise Integration">Enterprise Integration</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Hyper-Converged">Hyper-Converged</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Integration">Integration</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Machine Learning">Machine Learning</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Mainframe">Mainframe</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Networking">Networking</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Productivity">Productivity</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Security">Security</a>
+      
+      <a href="#" class="year-filter-link category-filter" data-category="Virtualization">Virtualization</a>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const providerFilters = document.querySelectorAll('.provider-filter');
+  const categoryFilters = document.querySelectorAll('.category-filter');
+  const providerSections = document.querySelectorAll('.provider-heading, table');
+  const searchInput = document.getElementById('search-input');
+  
+  let selectedProvider = 'all';
+  let selectedCategory = 'all';
+  let searchTerm = '';
+  
+  // Set default active filters
+  const allProviderFilter = document.querySelector('.provider-filter[data-provider="all"]');
+  const allCategoryFilter = document.querySelector('.category-filter[data-category="all"]');
+  if (allProviderFilter) allProviderFilter.classList.add('active');
+  if (allCategoryFilter) allCategoryFilter.classList.add('active');
+  
+  // Provider filter functionality
+  providerFilters.forEach(filter => {
+    filter.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      providerFilters.forEach(f => f.classList.remove('active'));
+      this.classList.add('active');
+      selectedProvider = this.getAttribute('data-provider');
+      applyFilters();
+    });
+  });
+  
+  // Category filter functionality
+  categoryFilters.forEach(filter => {
+    filter.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      categoryFilters.forEach(f => f.classList.remove('active'));
+      this.classList.add('active');
+      selectedCategory = this.getAttribute('data-category');
+      applyFilters();
+    });
+  });
+  
+  // Search functionality
+  searchInput.addEventListener('input', function() {
+    searchTerm = this.value.toLowerCase().trim();
+    applyFilters();
+  });
+  
+  function applyFilters() {
+    providerSections.forEach(section => {
+      const isProviderHeading = section.classList.contains('provider-heading');
+      const isTable = section.tagName === 'TABLE';
+      
+      if (isProviderHeading) {
+        const providerName = section.textContent.trim();
+        const showProvider = selectedProvider === 'all' || providerName === selectedProvider;
+        
+        if (showProvider) {
+          // Check if table should be shown based on category filter
+          const table = section.nextElementSibling;
+          if (table && table.tagName === 'TABLE') {
+            if (selectedCategory === 'all') {
+              // Check if table has any rows matching the search term
+              const rows = table.querySelectorAll('tbody tr');
+              let hasMatchingRows = false;
+              rows.forEach(row => {
+                let searchMatch = true;
+                if (searchTerm) {
+                  const rowText = row.textContent.toLowerCase();
+                  searchMatch = rowText.includes(searchTerm);
+                }
+                
+                if (searchMatch) {
+                  row.style.display = 'table-row';
+                  hasMatchingRows = true;
+                } else {
+                  row.style.display = 'none';
+                }
+              });
+              
+              if (hasMatchingRows) {
+                section.style.display = '';
+                table.style.display = '';
+              } else {
+                section.style.display = 'none';
+                table.style.display = 'none';
+              }
+            } else {
+              // Check if table has any rows matching the category and search term
+              const rows = table.querySelectorAll('tbody tr');
+              let hasMatchingRows = false;
+              rows.forEach(row => {
+                const categoryCell = row.children[0]; // First column is category
+                const categoryMatch = selectedCategory === 'all' || (categoryCell && categoryCell.textContent.trim() === selectedCategory);
+                
+                // Search across all text content in the row
+                let searchMatch = true;
+                if (searchTerm) {
+                  const rowText = row.textContent.toLowerCase();
+                  searchMatch = rowText.includes(searchTerm);
+                }
+                
+                if (categoryMatch && searchMatch) {
+                  row.style.display = 'table-row';
+                  hasMatchingRows = true;
+                } else {
+                  row.style.display = 'none';
+                }
+              });
+              // Only show provider heading and table if there are matching rows
+              if (hasMatchingRows) {
+                section.style.display = '';
+                table.style.display = '';
+              } else {
+                section.style.display = 'none';
+                table.style.display = 'none';
+              }
+            }
+          }
+        } else {
+          section.style.display = 'none';
+          if (section.nextElementSibling && section.nextElementSibling.tagName === 'TABLE') {
+            section.nextElementSibling.style.display = 'none';
+          }
+        }
+      }
+    });
+    
+    updateFilterStatus();
+    checkForNoMatches();
+  }
+  
+  function updateFilterStatus() {
+    const filterStatus = document.getElementById('filter-status');
+    const activeFilters = document.getElementById('active-filters');
+    
+    const filters = [];
+    if (selectedProvider !== 'all') {
+      filters.push(`<span style="color: #c00;">Provider:</span> ${selectedProvider}`);
+    }
+    if (selectedCategory !== 'all') {
+      filters.push(`<span style="color: #c00;">Category:</span> ${selectedCategory}`);
+    }
+    if (searchTerm !== '') {
+      filters.push(`<span style="color: #c00;">Search:</span> ${searchTerm}`);
+    }
+    
+    if (filters.length > 0) {
+      activeFilters.innerHTML = filters.join(', ');
+      filterStatus.style.display = 'block';
+    } else {
+      filterStatus.style.display = 'none';
+    }
+  }
+  
+  function checkForNoMatches() {
+    const noMatchMessage = document.getElementById('no-match-message');
+    const visibleProviderHeadings = document.querySelectorAll('.provider-heading[style="display: block"], .provider-heading:not([style*="display: none"])');
+    
+    // Check if any provider sections are actually visible and have content
+    let hasVisibleContent = false;
+    visibleProviderHeadings.forEach(heading => {
+      if (heading.style.display !== 'none') {
+        const table = heading.nextElementSibling;
+        if (table && table.tagName === 'TABLE' && table.style.display !== 'none') {
+          const visibleRows = table.querySelectorAll('tbody tr:not([style*="display: none"])');
+          if (visibleRows.length > 0) {
+            hasVisibleContent = true;
+          }
+        }
+      }
+    });
+    
+    if (!hasVisibleContent && (selectedProvider !== 'all' || selectedCategory !== 'all' || searchTerm !== '')) {
+      noMatchMessage.style.display = 'block';
+    } else {
+      noMatchMessage.style.display = 'none';
+    }
+  }
+  
+  // Clear filters functionality
+  document.getElementById('clear-filters').addEventListener('click', function() {
+    selectedProvider = 'all';
+    selectedCategory = 'all';
+    searchTerm = '';
+    searchInput.value = '';
+    
+    // Reset filter link states
+    providerFilters.forEach(f => f.classList.remove('active'));
+    categoryFilters.forEach(f => f.classList.remove('active'));
+    
+    const allProviderFilter = document.querySelector('.provider-filter[data-provider="all"]');
+    const allCategoryFilter = document.querySelector('.category-filter[data-category="all"]');
+    if (allProviderFilter) allProviderFilter.classList.add('active');
+    if (allCategoryFilter) allCategoryFilter.classList.add('active');
+    
+    applyFilters();
+  });
+});
+</script>
+
 
   </div>
 
@@ -65,7 +760,7 @@
       </div>
     </main><footer class="site-footer h-card">
   <div class="footer-content">
-    <p>&copy; 2025 Exceptional Outcome (EO) Framework™. All rights reserved.</p>
+    <p>&copy; 2025 <span style="color: #c00; font-weight: normal;">Exceptional Outcome (EO) Framework™</span>. All rights reserved.</p>
   </div>
 </footer></body>
 
