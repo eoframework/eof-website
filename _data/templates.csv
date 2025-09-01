@@ -24,9 +24,9 @@ Azure,Cyber Security,Sentinel SIEM,Sentinel Siem solution for AZURE,https://gith
 Azure,AI,Document Intelligence,Document Intelligence solution for AZURE,https://github.com/eoframework/templates/tree/main/solutions/azure/ai/document-intelligence,Active
 Azure,Modern Workspace,Virtual Desktop,Virtual Desktop solution for AZURE,https://github.com/eoframework/templates/tree/main/solutions/azure/modern-workspace/virtual-desktop,Active
 Azure,DevOps,Enterprise Platform,Enterprise Platform solution for AZURE,https://github.com/eoframework/templates/tree/main/solutions/azure/devops/enterprise-platform,Active
-AWS,Cloud,Disaster Recovery Web Application,Keep your business running when disaster strikes with bulletproof recovery automation,https://github.com/eoframework/templates/tree/main/solutions/aws/cloud/disaster-recovery-web-application,Active
-AWS,Cloud,Onpremise To Cloud Migration,Escape legacy limitations and soar into the cloud with seamless enterprise migration,https://github.com/eoframework/templates/tree/main/solutions/aws/cloud/onpremise-to-cloud-migration,Active
-AWS,AI,Intelligent Document Processing,Transform paper chaos into digital insights with AI-powered document extraction and analysis,https://github.com/eoframework/templates/tree/main/solutions/aws/ai/intelligent-document-processing,Active
+AWS,Cloud,Disaster Recovery Web Application,Rapid business continuity with automated failover,https://github.com/eoframework/templates/tree/main/solutions/aws/cloud/disaster-recovery-web-application,Active
+AWS,Cloud,Onpremise To Cloud Migration,Seamless enterprise migration to modern cloud platform,https://github.com/eoframework/templates/tree/main/solutions/aws/cloud/onpremise-to-cloud-migration,Active
+AWS,AI,Intelligent Document Processing,Automate document insights with AI-driven extraction,https://github.com/eoframework/templates/tree/main/solutions/aws/ai/intelligent-document-processing,Active
 IBM,Cloud,Openshift Container Platform,Openshift Container Platform solution for IBM,https://github.com/eoframework/templates/tree/main/solutions/ibm/cloud/openshift-container-platform,Active
 IBM,DevOps,Ansible Automation Platform,Ansible Automation Platform solution for IBM,https://github.com/eoframework/templates/tree/main/solutions/ibm/devops/ansible-automation-platform,Active
 Cisco,Cloud,Hybrid Infrastructure,Hybrid Infrastructure solution for CISCO,https://github.com/eoframework/templates/tree/main/solutions/cisco/cloud/hybrid-infrastructure,Active
