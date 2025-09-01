@@ -10,19 +10,19 @@ title: templates
 }
 .articles-layout table th:nth-child(2),
 .articles-layout table td:nth-child(2) {
-  width: 28%;
+  width: 26%;
 }
 .articles-layout table th:nth-child(3),
 .articles-layout table td:nth-child(3) {
-  width: 40%;
+  width: 44%;
 }
 .articles-layout table th:nth-child(4),
 .articles-layout table td:nth-child(4) {
-  width: 10%;
+  width: 9%;
 }
 .articles-layout table th:nth-child(5),
 .articles-layout table td:nth-child(5) {
-  width: 8%;
+  width: 7%;
 }
 </style>
 
