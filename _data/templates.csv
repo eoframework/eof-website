@@ -15,7 +15,7 @@ Dell,DevOps,Poweredge CI Infrastructure,Enterprise CI infrastructure on PowerEdg
 Juniper,Network,Mist AI Network,AI-driven network operations & user experiences,https://github.com/eoframework/templates/tree/main/solutions/juniper/network/mist-ai-network,Active
 Juniper,Cyber Security,Srx Firewall Platform,Next-gen firewall for enterprise network security,https://github.com/eoframework/templates/tree/main/solutions/juniper/cyber-security/srx-firewall-platform,Active
 Microsoft,Cyber Security,Cmmc Enclave,CMMC-compliant secure enclave for defense contractors,https://github.com/eoframework/templates/tree/main/solutions/microsoft/cyber-security/cmmc-enclave,Active
-Microsoft,Modern Workspace,M365 Deployment,Complete Microsoft 365 enterprise deployment,https://github.com/eoframework/templates/tree/main/solutions/microsoft/modern-workspace/m365-deployment,Active
+Microsoft,Modern Workspace,Microsoft 365 Deployment,Complete Microsoft 365 enterprise deployment,https://github.com/eoframework/templates/tree/main/solutions/microsoft/modern-workspace/m365-deployment,Active
 Google,Cloud,Landing Zone,Secure cloud foundation with governance & controls,https://github.com/eoframework/templates/tree/main/solutions/google/cloud/landing-zone,Active
 Google,Modern Workspace,Workspace,Collaborative digital workspace for modern teams,https://github.com/eoframework/templates/tree/main/solutions/google/modern-workspace/workspace,Active
 Azure,Cloud,Enterprise Landing Zone,Secure Azure foundation for enterprise workloads,https://github.com/eoframework/templates/tree/main/solutions/azure/cloud/enterprise-landing-zone,Active
