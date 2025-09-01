@@ -14,7 +14,7 @@ dell,ai,Precision AI Workstation,High-performance workstations for AI developmen
 dell,devops,Poweredge Ci Infrastructure,Enterprise CI infrastructure on PowerEdge servers,https://github.com/eoframework/templates/tree/main/solutions/dell/devops/poweredge-ci-infrastructure,Active
 juniper,network,Mist AI Network,AI-driven network operations & user experiences,https://github.com/eoframework/templates/tree/main/solutions/juniper/network/mist-ai-network,Active
 juniper,cyber-security,SRX Firewall Platform,Next-gen firewall for enterprise network security,https://github.com/eoframework/templates/tree/main/solutions/juniper/cyber-security/srx-firewall-platform,Active
-microsoft,cyber-security,Cmmc Enclave,CMMC-compliant secure enclave for defense contractors,https://github.com/eoframework/templates/tree/main/solutions/microsoft/cyber-security/cmmc-enclave,Active
+microsoft,cyber-security,CMMC Enclave,CMMC-compliant secure enclave for defense contractors,https://github.com/eoframework/templates/tree/main/solutions/microsoft/cyber-security/cmmc-enclave,Active
 microsoft,modern-workspace,Microsoft 365 Deployment,Complete Microsoft 365 enterprise deployment,https://github.com/eoframework/templates/tree/main/solutions/microsoft/modern-workspace/m365-deployment,Active
 google,cloud,Landing Zone,Secure cloud foundation with governance & controls,https://github.com/eoframework/templates/tree/main/solutions/google/cloud/landing-zone,Active
 google,modern-workspace,Workspace,Collaborative digital workspace for modern teams,https://github.com/eoframework/templates/tree/main/solutions/google/modern-workspace/workspace,Active
