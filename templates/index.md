@@ -3,6 +3,29 @@ layout: page
 title: templates
 ---
 
+<style>
+.articles-layout table th:nth-child(1),
+.articles-layout table td:nth-child(1) {
+  width: 14%;
+}
+.articles-layout table th:nth-child(2),
+.articles-layout table td:nth-child(2) {
+  width: 28%;
+}
+.articles-layout table th:nth-child(3),
+.articles-layout table td:nth-child(3) {
+  width: 40%;
+}
+.articles-layout table th:nth-child(4),
+.articles-layout table td:nth-child(4) {
+  width: 10%;
+}
+.articles-layout table th:nth-child(5),
+.articles-layout table td:nth-child(5) {
+  width: 8%;
+}
+</style>
+
 <div class="articles-layout">
 <div class="articles-main-content" markdown="1">
 
@@ -34,8 +57,7 @@ View and download templates grouped by technology vendors. Filter by practices l
         <th>Category</th>
         <th>Solution Name</th>
         <th>Description</th>
-        <th>Pre Sales</th>
-        <th>Delivery</th>
+        <th>Templates</th>
         <th>Status</th>
       </tr>
     </thead>
@@ -45,8 +67,7 @@ View and download templates grouped by technology vendors. Filter by practices l
         <td>{{ template.Category }}</td>
         <td>{{ template['Solution Name'] }}</td>
         <td>{{ template.Description }}</td>
-        <td><a href="{{ template['Pre Sales Templates'] }}" target="_blank">templates</a></td>
-        <td><a href="{{ template['Delivery Templates'] }}" target="_blank">templates</a></td>
+        <td><a href="{{ template['Templates'] }}" target="_blank">templates</a></td>
         <td>{{ template.Status }}</td>
       </tr>
       {% endfor %}
