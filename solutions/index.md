@@ -1,6 +1,6 @@
 ---
 layout: page
-title: templates
+title: solutions
 ---
 
 <style>
@@ -29,13 +29,13 @@ title: templates
 <div class="articles-layout">
 <div class="articles-main-content" markdown="1">
 
-View and download templates grouped by technology vendors. Filter by practices like Cyber, Cloud, and AI.
+View and download solutions grouped by technology vendors. Filter by practices like Cyber, Cloud, and AI.
 
 <div style="margin: 1rem 0; display: flex; justify-content: space-between; align-items: center;">
   <div></div>
   <div style="display: flex; align-items: center; gap: 1rem;">
     <div style="width: 200px; padding-right: 1rem;">
-      <input type="text" id="search-input" placeholder="Search templates..." style="width: 100%; padding: 0.35rem 0.5rem; border: 1px solid #ddd; border-radius: 3px; font-size: 0.85em;">
+      <input type="text" id="search-input" placeholder="Search solutions..." style="width: 100%; padding: 0.35rem 0.5rem; border: 1px solid #ddd; border-radius: 3px; font-size: 0.85em;">
     </div>
     <div id="filter-status" style="display: none; text-align: right; font-size: 0.85em; white-space: nowrap;">
       <span style="font-weight: 500; color: #333; padding-right: 0.25rem;">Active Filters:</span> <span id="active-filters"></span>
@@ -45,10 +45,10 @@ View and download templates grouped by technology vendors. Filter by practices l
 </div>
 
 <div id="no-match-message" style="margin: 1rem 0; padding: 0; text-align: center; color: #555; font-size: 1em; display: none;">
-  No templates match the selected filter criteria.
+  No solutions match the selected filter criteria.
 </div>
 
-{% assign providers = site.data.templates | group_by: 'Provider' | sort: 'name' %}
+{% assign providers = site.data.solutions | group_by: 'Provider' | sort: 'name' %}
 {% for provider_group in providers %}
   <div class="provider-heading">{{ provider_group.name }}</div>
   <table>
@@ -82,7 +82,7 @@ View and download templates grouped by technology vendors. Filter by practices l
     <h3>filter by provider</h3>
     <div class="related-links-list">
       <a href="#" class="year-filter-link provider-filter" data-provider="all">All Providers</a>
-      {% assign providers = site.data.templates | group_by: 'Provider' | sort: 'name' %}
+      {% assign providers = site.data.solutions | group_by: 'Provider' | sort: 'name' %}
       {% for provider_group in providers %}
       <a href="#" class="year-filter-link provider-filter" data-provider="{{ provider_group.name }}">{{ provider_group.name }}</a>
       {% endfor %}
@@ -93,7 +93,7 @@ View and download templates grouped by technology vendors. Filter by practices l
     <h3>filter by category</h3>
     <div class="related-links-list">
       <a href="#" class="year-filter-link category-filter" data-category="all">All Categories</a>
-      {% assign categories = site.data.templates | group_by: 'Category' | sort: 'name' %}
+      {% assign categories = site.data.solutions | group_by: 'Category' | sort: 'name' %}
       {% for category_group in categories %}
       <a href="#" class="year-filter-link category-filter" data-category="{{ category_group.name }}">{{ category_group.name }}</a>
       {% endfor %}

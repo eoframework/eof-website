@@ -15,7 +15,7 @@ The <span class="key-term">Exceptional Outcomes (EO) Framework™</span> is a co
 </div>
 <div style="flex: 1;">
 <ul style="margin: 0; padding-left: 1rem;">
-<li style="margin-bottom: 0.75rem;"><span class="key-term">Template-Driven</span> – Pre-sales & Delivery templates for every stage.</li>
+<li style="margin-bottom: 0.75rem;"><span class="key-term">Solution-Driven</span> – Pre-sales & Delivery solutions for every stage.</li>
 <li style="margin-bottom: 0.75rem;"><span class="key-term">Vendor-Aligned</span> – Mapped to leading technology provider across cloud, infrastructure, and security domains.</li>
 <li style="margin-bottom: 0.75rem;"><span class="key-term">Community-Validated</span> – Contributed, Reviewed, and Improved by the EO community.</li>
 <li style="margin-bottom: 0.75rem;"><span class="key-term">Process-Focused</span> – Structured methodologies for consistent project execution.</li>
