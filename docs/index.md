@@ -10,32 +10,56 @@ title: documentation
       <nav class="toc-nav">
         <div class="toc-section">
           <a href="#" class="toc-main-item active" data-section="eo-concepts">
-            EO Concepts
+            Concepts
           </a>
         </div>
         
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="pre-sales">
-            Pre Sales
+          <a href="#" class="toc-main-item" data-section="templates">
+            Templates
           </a>
           <div class="toc-subsections">
-            <a href="#" class="toc-sub-item" data-section="create-template">Create Template</a>
-            <a href="#" class="toc-sub-item" data-section="review-template">Review Template</a>
-            <a href="#" class="toc-sub-item" data-section="lookup-template">Lookup Template</a>
-            <a href="#" class="toc-sub-item" data-section="request-template">Request Template</a>
+            <a href="#" class="toc-sub-item" data-section="templates-overview">Overview</a>
+            <a href="#" class="toc-sub-item" data-section="pre-sales">Pre Sales</a>
+            <a href="#" class="toc-sub-item" data-section="delivery">Delivery</a>
           </div>
         </div>
-        
+
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="delivery">
-            Delivery
+          <a href="#" class="toc-main-item" data-section="roles">
+            Roles
           </a>
           <div class="toc-subsections">
-            <a href="#" class="toc-sub-item" data-section="create-scripts">Create Scripts</a>
-            <a href="#" class="toc-sub-item" data-section="execute-scripts">Execute Scripts</a>
+            <a href="#" class="toc-sub-item" data-section="roles-overview">Overview</a>
+            <a href="#" class="toc-sub-item" data-section="eo-sales-engineer">EO Sales Engineer</a>
+            <a href="#" class="toc-sub-item" data-section="eo-quarterback">EO Quarterback</a>
+            <a href="#" class="toc-sub-item" data-section="eo-engineer">EO Engineer</a>
+            <a href="#" class="toc-sub-item" data-section="eo-project-manager">EO Project Manager</a>
           </div>
         </div>
-        
+
+        <div class="toc-section">
+          <a href="#" class="toc-main-item" data-section="scripts">
+            Scripts
+          </a>
+          <div class="toc-subsections">
+            <a href="#" class="toc-sub-item" data-section="scripts-overview">Overview</a>
+            <a href="#" class="toc-sub-item" data-section="terraform">Terraform</a>
+            <a href="#" class="toc-sub-item" data-section="powershell">Powershell</a>
+          </div>
+        </div>
+
+        <div class="toc-section">
+          <a href="#" class="toc-main-item" data-section="process">
+            Process
+          </a>
+          <div class="toc-subsections">
+            <a href="#" class="toc-sub-item" data-section="process-overview">Overview</a>
+            <a href="#" class="toc-sub-item" data-section="process-pre-sales">Pre Sales</a>
+            <a href="#" class="toc-sub-item" data-section="process-delivery">Delivery</a>
+          </div>
+        </div>
+
         <div class="toc-section">
           <a href="#" class="toc-main-item" data-section="user-guide">
             User Guide
@@ -93,35 +117,118 @@ title: documentation
     <div class="content-panel">
       <div class="content-section active" id="eo-concepts">
         <div class="content-header">
-          <h2>EO Concepts</h2>
+          <h2>EO Framework™ Concepts</h2>
         </div>
         <div class="content-body">
-          <p>The <span class="key-term">Exceptional Outcomes (EO) Framework</span> is built on fundamental concepts that drive successful technology implementations.</p>
-          
-          <h3>Core Principles</h3>
+          <p>The <span class="key-term">Exceptional Outcomes (EO) Framework™</span> is built on five fundamental concepts that drive successful technology implementations.</p>
+
+          <h3>EO Framework™ Solutions</h3>
+          <p>Comprehensive implementations that combine Templates, Practitioner Roles, Scripts, and Process to deliver successful technology outcomes with predictable, measurable results.</p>
+
+          <h3>EO Framework™ Templates</h3>
+          <p>Standardized, community-validated templates providing structured methodologies for solution delivery, including guidance for requirements, design, implementation, and validation.</p>
+
+          <h3>EO Framework™ Roles</h3>
+          <p>Specialized roles ensuring comprehensive project lifecycle coverage:</p>
+
+          <table style="width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95em;">
+            <thead>
+              <tr style="background-color: #f4f4f4;">
+                <th style="border: 1px solid #ddd; padding: 0.5rem; text-align: left; font-weight: bold; width: 30%;">Role</th>
+                <th style="border: 1px solid #ddd; padding: 0.5rem; text-align: left; font-weight: bold;">Responsibilities</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;"><span class="key-term">EO Sales Engineer</span></td>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;">Leads pre-sales activities and solution design</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;"><span class="key-term">EO Quarterback</span></td>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;">Orchestrates project execution and stakeholder coordination</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;"><span class="key-term">EO Delivery Engineer</span></td>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;">Implements technical solutions and manages deployment</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;"><span class="key-term">EO Project Manager</span></td>
+                <td style="border: 1px solid #ddd; padding: 0.5rem;">Oversees planning, timelines, and deliverable tracking</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>EO Framework™ Scripts</h3>
+          <p>Automation scripts for deploying and testing solutions with consistency and reliability, reducing manual effort and ensuring repeatable processes.</p>
+
+          <h3>EO Framework™ Process</h3>
+          <p>Structured execution methodology ensuring coordinated delivery:</p>
           <ul>
-            <li><span class="key-term">Template-Driven Approach</span> - Standardized processes for consistent outcomes</li>
-            <li><span class="key-term">Community Collaboration</span> - Shared knowledge and best practices</li>
-            <li><span class="key-term">Measurable Results</span> - Quantifiable success metrics</li>
-            <li><span class="key-term">Lifecycle Management</span> - End-to-end project support</li>
-          </ul>
-          
-          <h3>Framework Benefits</h3>
-          <p>The EO Framework™ delivers value across all stakeholders:</p>
-          <ul>
-            <li><span class="key-term">Clients</span> - Reduced risk and faster delivery</li>
-            <li><span class="key-term">Technology Providers</span> - Better solution adoption</li>
-            <li><span class="key-term">Solution Providers</span> - Predictable execution and high-quality outcomes</li>
+            <li><span class="key-term">Orchestrated Task Execution</span> - Systematic execution of coordinated tasks following defined workflows</li>
+            <li><span class="key-term">Stakeholder Communication Flow</span> - Structured protocols maintaining transparency among all project stakeholders</li>
           </ul>
         </div>
         <div class="content-navigation">
           <div class="nav-previous"></div>
           <div class="nav-next">
+            <a href="#" data-section="templates"><span class="nav-label">Next:</span> <span class="nav-content">Templates</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="templates">
+        <div class="content-header">
+          <h2>Templates</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Framework™ Templates provide comprehensive guidance for technology solution delivery across different phases and scenarios.</p>
+
+          <h3>Template Structure</h3>
+          <p>Each template includes:</p>
+          <ul>
+            <li>Requirements gathering and analysis</li>
+            <li>Solution design and architecture</li>
+            <li>Implementation planning and execution</li>
+            <li>Testing and validation procedures</li>
+            <li>Success metrics and criteria</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="templates-overview">← <span class="nav-label">Previous:</span> <span class="nav-content">Overview</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="delivery"><span class="nav-label">Next:</span> <span class="nav-content">Delivery</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="templates-overview">
+        <div class="content-header">
+          <h2>Overview</h2>
+        </div>
+        <div class="content-body">
+          <p>Template overview provides a comprehensive understanding of available templates and their applications.</p>
+
+          <h3>Template Categories</h3>
+          <ul>
+            <li><span class="key-term">Cloud Infrastructure</span> - Multi-cloud deployments and migrations</li>
+            <li><span class="key-term">Security Implementation</span> - Compliance and threat protection</li>
+            <li><span class="key-term">DevOps Transformation</span> - CI/CD and automation</li>
+            <li><span class="key-term">Data Modernization</span> - Analytics and data platforms</li>
+            <li><span class="key-term">Integration Solutions</span> - API management and system connectivity</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="templates">← <span class="nav-label">Previous:</span> <span class="nav-content">Templates</span></a>
+          </div>
+          <div class="nav-next">
             <a href="#" data-section="pre-sales"><span class="nav-label">Next:</span> <span class="nav-content">Pre Sales</span> →</a>
           </div>
         </div>
       </div>
-      
+
       <div class="content-section" id="pre-sales">
         <div class="content-header">
           <h2>Pre Sales</h2>
@@ -140,7 +247,7 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="eo-concepts">← <span class="nav-label">Previous:</span> <span class="nav-content">EO Concepts</span></a>
+            <a href="#" data-section="eo-concepts">← <span class="nav-label">Previous:</span> <span class="nav-content">EO Framework™ Concepts</span></a>
           </div>
           <div class="nav-next">
             <a href="#" data-section="create-template"><span class="nav-label">Next:</span> <span class="nav-content">Create Template</span> →</a>
@@ -314,14 +421,445 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="request-template">← <span class="nav-label">Previous:</span> <span class="nav-content">Request Template</span></a>
+            <a href="#" data-section="pre-sales">← <span class="nav-label">Previous:</span> <span class="nav-content">Pre Sales</span></a>
           </div>
           <div class="nav-next">
-            <a href="#" data-section="create-scripts"><span class="nav-label">Next:</span> <span class="nav-content">Create Scripts</span> →</a>
+            <a href="#" data-section="roles"><span class="nav-label">Next:</span> <span class="nav-content">Roles</span> →</a>
           </div>
         </div>
       </div>
-      
+
+      <div class="content-section" id="roles">
+        <div class="content-header">
+          <h2>Roles</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Framework™ defines specialized practitioner roles that ensure comprehensive coverage throughout the technology solution lifecycle.</p>
+
+          <h3>Role Structure</h3>
+          <p>Each role is designed with specific responsibilities and expertise areas:</p>
+          <ul>
+            <li>Clear accountability and ownership</li>
+            <li>Defined skill requirements and competencies</li>
+            <li>Standardized workflows and processes</li>
+            <li>Collaboration touchpoints with other roles</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="delivery">← <span class="nav-label">Previous:</span> <span class="nav-content">Delivery</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="roles-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="roles-overview">
+        <div class="content-header">
+          <h2>Roles Overview</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Framework™ roles provide specialized expertise across different phases of the technology solution lifecycle.</p>
+
+          <h3>Role Collaboration</h3>
+          <p>Effective role collaboration ensures seamless project execution:</p>
+          <ul>
+            <li><span class="key-term">Handoff Protocols</span> - Structured transitions between phases</li>
+            <li><span class="key-term">Communication Standards</span> - Regular sync points and status updates</li>
+            <li><span class="key-term">Shared Accountability</span> - Joint responsibility for project success</li>
+            <li><span class="key-term">Knowledge Transfer</span> - Continuous learning and improvement</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="roles">← <span class="nav-label">Previous:</span> <span class="nav-content">Roles</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="eo-sales-engineer"><span class="nav-label">Next:</span> <span class="nav-content">EO Sales Engineer</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="eo-sales-engineer">
+        <div class="content-header">
+          <h2>EO Sales Engineer</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Sales Engineer leads pre-sales activities, solution design, and customer engagement throughout the sales cycle.</p>
+
+          <h3>Key Responsibilities</h3>
+          <ul>
+            <li>Technical solution design and architecture</li>
+            <li>Customer requirements analysis and validation</li>
+            <li>Proof of concept development and demonstration</li>
+            <li>Technical proposal creation and presentation</li>
+            <li>Risk assessment and mitigation planning</li>
+          </ul>
+
+          <h3>Required Skills</h3>
+          <ul>
+            <li><span class="key-term">Technical Expertise</span> - Deep understanding of technology solutions</li>
+            <li><span class="key-term">Customer Focus</span> - Strong communication and presentation skills</li>
+            <li><span class="key-term">Solution Design</span> - Architecture and integration capabilities</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="roles-overview">← <span class="nav-label">Previous:</span> <span class="nav-content">Overview</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="eo-quarterback"><span class="nav-label">Next:</span> <span class="nav-content">EO Quarterback</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="eo-quarterback">
+        <div class="content-header">
+          <h2>EO Quarterback</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Quarterback orchestrates overall project execution and coordinates all stakeholders throughout the delivery lifecycle.</p>
+
+          <h3>Key Responsibilities</h3>
+          <ul>
+            <li>Project coordination and stakeholder management</li>
+            <li>Cross-functional team leadership and communication</li>
+            <li>Process standardization and quality assurance</li>
+            <li>Risk management and issue escalation</li>
+            <li>Success metrics tracking and reporting</li>
+          </ul>
+
+          <h3>Required Skills</h3>
+          <ul>
+            <li><span class="key-term">Leadership</span> - Team coordination and motivation</li>
+            <li><span class="key-term">Communication</span> - Clear and effective stakeholder engagement</li>
+            <li><span class="key-term">Process Management</span> - Standardization and optimization</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="eo-sales-engineer">← <span class="nav-label">Previous:</span> <span class="nav-content">EO Sales Engineer</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="eo-engineer"><span class="nav-label">Next:</span> <span class="nav-content">EO Engineer</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="eo-engineer">
+        <div class="content-header">
+          <h2>EO Engineer</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Engineer implements technical solutions and manages deployment activities with focus on automation and reliability.</p>
+
+          <h3>Key Responsibilities</h3>
+          <ul>
+            <li>Technical implementation and deployment</li>
+            <li>Infrastructure automation and scripting</li>
+            <li>System configuration and optimization</li>
+            <li>Testing and validation procedures</li>
+            <li>Documentation and knowledge transfer</li>
+          </ul>
+
+          <h3>Required Skills</h3>
+          <ul>
+            <li><span class="key-term">Technical Implementation</span> - Hands-on deployment expertise</li>
+            <li><span class="key-term">Automation</span> - Scripting and infrastructure as code</li>
+            <li><span class="key-term">Problem Solving</span> - Troubleshooting and optimization</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="eo-quarterback">← <span class="nav-label">Previous:</span> <span class="nav-content">EO Quarterback</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="eo-project-manager"><span class="nav-label">Next:</span> <span class="nav-content">EO Project Manager</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="eo-project-manager">
+        <div class="content-header">
+          <h2>EO Project Manager</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Project Manager oversees planning, timelines, and deliverable tracking to ensure successful project completion.</p>
+
+          <h3>Key Responsibilities</h3>
+          <ul>
+            <li>Project planning and timeline management</li>
+            <li>Resource allocation and capacity planning</li>
+            <li>Budget tracking and financial management</li>
+            <li>Deliverable tracking and quality assurance</li>
+            <li>Stakeholder reporting and communication</li>
+          </ul>
+
+          <h3>Required Skills</h3>
+          <ul>
+            <li><span class="key-term">Project Management</span> - Planning and execution expertise</li>
+            <li><span class="key-term">Financial Management</span> - Budget and resource optimization</li>
+            <li><span class="key-term">Stakeholder Management</span> - Communication and reporting</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="eo-engineer">← <span class="nav-label">Previous:</span> <span class="nav-content">EO Engineer</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="scripts"><span class="nav-label">Next:</span> <span class="nav-content">Scripts</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="scripts">
+        <div class="content-header">
+          <h2>Scripts</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Framework™ Scripts provide automation capabilities for deploying and testing technology solutions with consistency and reliability.</p>
+
+          <h3>Script Philosophy</h3>
+          <p>EO Framework™ scripts are designed with the following principles:</p>
+          <ul>
+            <li>Idempotent operations for safe re-execution</li>
+            <li>Comprehensive error handling and logging</li>
+            <li>Modular design for reusability</li>
+            <li>Standardized interfaces and documentation</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="eo-project-manager">← <span class="nav-label">Previous:</span> <span class="nav-content">EO Project Manager</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="scripts-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="scripts-overview">
+        <div class="content-header">
+          <h2>Scripts Overview</h2>
+        </div>
+        <div class="content-body">
+          <p>Script overview provides comprehensive understanding of available automation tools and their applications across different technology stacks.</p>
+
+          <h3>Script Categories</h3>
+          <ul>
+            <li><span class="key-term">Infrastructure Provisioning</span> - Cloud resource creation and management</li>
+            <li><span class="key-term">Configuration Management</span> - System setup and configuration automation</li>
+            <li><span class="key-term">Deployment Automation</span> - Application and service deployment</li>
+            <li><span class="key-term">Testing and Validation</span> - Automated testing and verification</li>
+            <li><span class="key-term">Monitoring Setup</span> - Observability and alerting configuration</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="scripts">← <span class="nav-label">Previous:</span> <span class="nav-content">Scripts</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="terraform"><span class="nav-label">Next:</span> <span class="nav-content">Terraform</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="terraform">
+        <div class="content-header">
+          <h2>Terraform</h2>
+        </div>
+        <div class="content-body">
+          <p>Terraform scripts in the EO Framework™ provide infrastructure as code capabilities for consistent and repeatable infrastructure provisioning.</p>
+
+          <h3>Terraform Usage</h3>
+          <p>EO Framework™ Terraform scripts include:</p>
+          <ul>
+            <li>Multi-cloud infrastructure provisioning</li>
+            <li>Network and security configuration</li>
+            <li>Resource tagging and organization</li>
+            <li>State management and backend configuration</li>
+            <li>Module-based reusable components</li>
+          </ul>
+
+          <h3>Best Practices</h3>
+          <ul>
+            <li><span class="key-term">Version Control</span> - All infrastructure code in Git repositories</li>
+            <li><span class="key-term">State Management</span> - Remote state with proper locking</li>
+            <li><span class="key-term">Module Design</span> - Reusable and parameterized modules</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="scripts-overview">← <span class="nav-label">Previous:</span> <span class="nav-content">Overview</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="powershell"><span class="nav-label">Next:</span> <span class="nav-content">Powershell</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="powershell">
+        <div class="content-header">
+          <h2>Powershell</h2>
+        </div>
+        <div class="content-body">
+          <p>PowerShell scripts in the EO Framework™ provide Windows-based automation and cross-platform management capabilities.</p>
+
+          <h3>PowerShell Usage</h3>
+          <p>EO Framework™ PowerShell scripts include:</p>
+          <ul>
+            <li>Windows system configuration and management</li>
+            <li>Active Directory and identity management</li>
+            <li>Azure and Office 365 automation</li>
+            <li>Application deployment and configuration</li>
+            <li>Monitoring and reporting automation</li>
+          </ul>
+
+          <h3>Script Features</h3>
+          <ul>
+            <li><span class="key-term">Cross-Platform</span> - PowerShell Core compatibility</li>
+            <li><span class="key-term">Error Handling</span> - Comprehensive exception management</li>
+            <li><span class="key-term">Logging</span> - Detailed execution and audit trails</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="terraform">← <span class="nav-label">Previous:</span> <span class="nav-content">Terraform</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="process"><span class="nav-label">Next:</span> <span class="nav-content">Process</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="process">
+        <div class="content-header">
+          <h2>Process</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Framework™ Process defines structured execution methodology that ensures coordinated delivery across all project phases.</p>
+
+          <h3>Process Foundation</h3>
+          <p>EO Framework™ processes are built on core principles:</p>
+          <ul>
+            <li>Standardized workflows and handoff procedures</li>
+            <li>Clear role definitions and responsibilities</li>
+            <li>Continuous communication and feedback loops</li>
+            <li>Quality gates and success criteria validation</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="powershell">← <span class="nav-label">Previous:</span> <span class="nav-content">Powershell</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="process-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="process-overview">
+        <div class="content-header">
+          <h2>Process Overview</h2>
+        </div>
+        <div class="content-body">
+          <p>Process overview provides comprehensive understanding of the structured methodologies used throughout the EO Framework™ lifecycle.</p>
+
+          <h3>Process Components</h3>
+          <ul>
+            <li><span class="key-term">Orchestrated Task Execution</span> - Systematic coordination of activities</li>
+            <li><span class="key-term">Stakeholder Communication</span> - Structured interaction protocols</li>
+            <li><span class="key-term">Quality Assurance</span> - Continuous validation and improvement</li>
+            <li><span class="key-term">Knowledge Management</span> - Capture and sharing of lessons learned</li>
+          </ul>
+
+          <h3>Process Benefits</h3>
+          <ul>
+            <li>Predictable project execution and outcomes</li>
+            <li>Reduced risk and improved quality</li>
+            <li>Enhanced team collaboration and efficiency</li>
+            <li>Scalable and repeatable methodologies</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="process">← <span class="nav-label">Previous:</span> <span class="nav-content">Process</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="process-pre-sales"><span class="nav-label">Next:</span> <span class="nav-content">Pre Sales</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="process-pre-sales">
+        <div class="content-header">
+          <h2>Process Pre Sales</h2>
+        </div>
+        <div class="content-body">
+          <p>Pre Sales process methodology ensures systematic approach to customer engagement, requirements gathering, and solution design.</p>
+
+          <h3>Pre Sales Workflow</h3>
+          <p>The pre sales process includes structured phases:</p>
+          <ul>
+            <li>Initial customer discovery and qualification</li>
+            <li>Requirements analysis and validation</li>
+            <li>Solution design and architecture</li>
+            <li>Proof of concept development</li>
+            <li>Proposal creation and presentation</li>
+          </ul>
+
+          <h3>Key Deliverables</h3>
+          <ul>
+            <li><span class="key-term">Requirements Document</span> - Detailed customer needs analysis</li>
+            <li><span class="key-term">Solution Architecture</span> - Technical design and specifications</li>
+            <li><span class="key-term">Implementation Plan</span> - Project timeline and resource allocation</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="process-overview">← <span class="nav-label">Previous:</span> <span class="nav-content">Overview</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="process-delivery"><span class="nav-label">Next:</span> <span class="nav-content">Delivery</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="process-delivery">
+        <div class="content-header">
+          <h2>Process Delivery</h2>
+        </div>
+        <div class="content-body">
+          <p>Delivery process methodology ensures systematic implementation, testing, and deployment of technology solutions.</p>
+
+          <h3>Delivery Workflow</h3>
+          <p>The delivery process includes structured phases:</p>
+          <ul>
+            <li>Environment preparation and setup</li>
+            <li>Implementation and configuration</li>
+            <li>Testing and validation procedures</li>
+            <li>Deployment and go-live activities</li>
+            <li>Knowledge transfer and handover</li>
+          </ul>
+
+          <h3>Quality Gates</h3>
+          <ul>
+            <li><span class="key-term">Environment Readiness</span> - Infrastructure and access validation</li>
+            <li><span class="key-term">Implementation Review</span> - Code and configuration quality checks</li>
+            <li><span class="key-term">Testing Completion</span> - Comprehensive validation and sign-off</li>
+          </ul>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="process-pre-sales">← <span class="nav-label">Previous:</span> <span class="nav-content">Pre Sales</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="user-guide"><span class="nav-label">Next:</span> <span class="nav-content">User Guide</span> →</a>
+          </div>
+        </div>
+      </div>
+
       <div class="content-section" id="create-scripts">
         <div class="content-header">
           <h2>Create Scripts</h2>
@@ -410,7 +948,7 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="execute-scripts">← <span class="nav-label">Previous:</span> <span class="nav-content">Execute Scripts</span></a>
+            <a href="#" data-section="process-delivery">← <span class="nav-label">Previous:</span> <span class="nav-content">Process Delivery</span></a>
           </div>
           <div class="nav-next">
             <a href="#" data-section="getting-started"><span class="nav-label">Next:</span> <span class="nav-content">Getting Started</span> →</a>
