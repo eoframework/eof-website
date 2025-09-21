@@ -9,16 +9,21 @@ title: documentation
       <h3>table of contents</h3>
       <nav class="toc-nav">
         <div class="toc-section">
-          <a href="#" class="toc-main-item active" data-section="eo-concepts">
+          <a href="#" class="toc-main-item toc-expandable expanded" data-section="eo-concepts">
+            <span class="toc-toggle">−</span>
             Concepts
           </a>
+          <div class="toc-subsections">
+            <a href="#" class="toc-sub-item active" data-section="concepts-overview">Overview</a>
+          </div>
         </div>
         
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="templates">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="templates">
+            <span class="toc-toggle">+</span>
             Templates
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="templates-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="pre-sales">Pre Sales</a>
             <a href="#" class="toc-sub-item" data-section="delivery">Delivery</a>
@@ -26,10 +31,11 @@ title: documentation
         </div>
 
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="roles">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="roles">
+            <span class="toc-toggle">+</span>
             Roles
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="roles-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="eo-sales-engineer">EO Sales Engineer</a>
             <a href="#" class="toc-sub-item" data-section="eo-quarterback">EO Quarterback</a>
@@ -39,10 +45,11 @@ title: documentation
         </div>
 
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="scripts">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="scripts">
+            <span class="toc-toggle">+</span>
             Scripts
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="scripts-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="terraform">Terraform</a>
             <a href="#" class="toc-sub-item" data-section="powershell">Powershell</a>
@@ -50,10 +57,11 @@ title: documentation
         </div>
 
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="process">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="process">
+            <span class="toc-toggle">+</span>
             Process
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="process-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="process-pre-sales">Pre Sales</a>
             <a href="#" class="toc-sub-item" data-section="process-delivery">Delivery</a>
@@ -61,10 +69,11 @@ title: documentation
         </div>
 
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="user-guide">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="user-guide">
+            <span class="toc-toggle">+</span>
             User Guide
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="getting-started">Getting Started</a>
             <a href="#" class="toc-sub-item" data-section="navigation">Navigation</a>
             <a href="#" class="toc-sub-item" data-section="user-workflows">User Workflows</a>
@@ -73,10 +82,11 @@ title: documentation
         </div>
         
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="developer-guide">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="developer-guide">
+            <span class="toc-toggle">+</span>
             Developer Guide
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="setup-environment">Setup Environment</a>
             <a href="#" class="toc-sub-item" data-section="api-reference">API Reference</a>
             <a href="#" class="toc-sub-item" data-section="integration-patterns">Integration Patterns</a>
@@ -86,10 +96,11 @@ title: documentation
         </div>
         
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="advocacy-guide">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="advocacy-guide">
+            <span class="toc-toggle">+</span>
             Advocacy Guide
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="community-engagement">Community Engagement</a>
             <a href="#" class="toc-sub-item" data-section="content-creation">Content Creation</a>
             <a href="#" class="toc-sub-item" data-section="event-planning">Event Planning</a>
@@ -97,10 +108,11 @@ title: documentation
         </div>
         
         <div class="toc-section">
-          <a href="#" class="toc-main-item" data-section="examples">
+          <a href="#" class="toc-main-item toc-expandable collapsed" data-section="examples">
+            <span class="toc-toggle">+</span>
             Examples
           </a>
-          <div class="toc-subsections">
+          <div class="toc-subsections" style="display: none;">
             <a href="#" class="toc-sub-item" data-section="cloud-migration">Cloud Migration</a>
             <a href="#" class="toc-sub-item" data-section="security-implementation">Security Implementation</a>
             <a href="#" class="toc-sub-item" data-section="data-modernization">Data Modernization</a>
@@ -115,9 +127,24 @@ title: documentation
   
   <div class="docs-content">
     <div class="content-panel">
-      <div class="content-section active" id="eo-concepts">
+      <div class="content-section" id="eo-concepts">
         <div class="content-header">
           <h2>EO Framework™ Concepts</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Framework™ concepts provide the foundational understanding of how the framework operates and delivers exceptional outcomes.</p>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous"></div>
+          <div class="nav-next">
+            <a href="#" data-section="concepts-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section active" id="concepts-overview">
+        <div class="content-header">
+          <h2>Concepts Overview</h2>
         </div>
         <div class="content-body">
           <p>The <span class="key-term">Exceptional Outcomes (EO) Framework™</span> is built on five fundamental concepts that drive successful technology implementations.</p>
@@ -169,7 +196,9 @@ title: documentation
           </ul>
         </div>
         <div class="content-navigation">
-          <div class="nav-previous"></div>
+          <div class="nav-previous">
+            <a href="#" data-section="eo-concepts">← <span class="nav-label">Previous:</span> <span class="nav-content">Concepts</span></a>
+          </div>
           <div class="nav-next">
             <a href="#" data-section="templates"><span class="nav-label">Next:</span> <span class="nav-content">Templates</span> →</a>
           </div>
@@ -179,6 +208,23 @@ title: documentation
       <div class="content-section" id="templates">
         <div class="content-header">
           <h2>Templates</h2>
+        </div>
+        <div class="content-body">
+          <p>The EO Framework™ Templates provide comprehensive guidance for technology solution delivery across different phases and scenarios.</p>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="concepts-overview">← <span class="nav-label">Previous:</span> <span class="nav-content">Concepts Overview</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="templates-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="templates-overview">
+        <div class="content-header">
+          <h2>Templates Overview</h2>
         </div>
         <div class="content-body">
           <p>The EO Framework™ Templates provide comprehensive guidance for technology solution delivery across different phases and scenarios.</p>
@@ -192,23 +238,6 @@ title: documentation
             <li>Testing and validation procedures</li>
             <li>Success metrics and criteria</li>
           </ul>
-        </div>
-        <div class="content-navigation">
-          <div class="nav-previous">
-            <a href="#" data-section="templates-overview">← <span class="nav-label">Previous:</span> <span class="nav-content">Overview</span></a>
-          </div>
-          <div class="nav-next">
-            <a href="#" data-section="delivery"><span class="nav-label">Next:</span> <span class="nav-content">Delivery</span> →</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="content-section" id="templates-overview">
-        <div class="content-header">
-          <h2>Overview</h2>
-        </div>
-        <div class="content-body">
-          <p>Template overview provides a comprehensive understanding of available templates and their applications.</p>
 
           <h3>Template Categories</h3>
           <ul>
@@ -435,15 +464,6 @@ title: documentation
         </div>
         <div class="content-body">
           <p>The EO Framework™ defines specialized practitioner roles that ensure comprehensive coverage throughout the technology solution lifecycle.</p>
-
-          <h3>Role Structure</h3>
-          <p>Each role is designed with specific responsibilities and expertise areas:</p>
-          <ul>
-            <li>Clear accountability and ownership</li>
-            <li>Defined skill requirements and competencies</li>
-            <li>Standardized workflows and processes</li>
-            <li>Collaboration touchpoints with other roles</li>
-          </ul>
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
@@ -460,7 +480,16 @@ title: documentation
           <h2>Roles Overview</h2>
         </div>
         <div class="content-body">
-          <p>The EO Framework™ roles provide specialized expertise across different phases of the technology solution lifecycle.</p>
+          <p>The EO Framework™ defines specialized practitioner roles that ensure comprehensive coverage throughout the technology solution lifecycle.</p>
+
+          <h3>Role Structure</h3>
+          <p>Each role is designed with specific responsibilities and expertise areas:</p>
+          <ul>
+            <li>Clear accountability and ownership</li>
+            <li>Defined skill requirements and competencies</li>
+            <li>Standardized workflows and processes</li>
+            <li>Collaboration touchpoints with other roles</li>
+          </ul>
 
           <h3>Role Collaboration</h3>
           <p>Effective role collaboration ensures seamless project execution:</p>
@@ -619,15 +648,6 @@ title: documentation
         </div>
         <div class="content-body">
           <p>The EO Framework™ Scripts provide automation capabilities for deploying and testing technology solutions with consistency and reliability.</p>
-
-          <h3>Script Philosophy</h3>
-          <p>EO Framework™ scripts are designed with the following principles:</p>
-          <ul>
-            <li>Idempotent operations for safe re-execution</li>
-            <li>Comprehensive error handling and logging</li>
-            <li>Modular design for reusability</li>
-            <li>Standardized interfaces and documentation</li>
-          </ul>
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
@@ -644,7 +664,16 @@ title: documentation
           <h2>Scripts Overview</h2>
         </div>
         <div class="content-body">
-          <p>Script overview provides comprehensive understanding of available automation tools and their applications across different technology stacks.</p>
+          <p>The EO Framework™ Scripts provide automation capabilities for deploying and testing technology solutions with consistency and reliability.</p>
+
+          <h3>Script Philosophy</h3>
+          <p>EO Framework™ scripts are designed with the following principles:</p>
+          <ul>
+            <li>Idempotent operations for safe re-execution</li>
+            <li>Comprehensive error handling and logging</li>
+            <li>Modular design for reusability</li>
+            <li>Standardized interfaces and documentation</li>
+          </ul>
 
           <h3>Script Categories</h3>
           <ul>
@@ -739,15 +768,6 @@ title: documentation
         </div>
         <div class="content-body">
           <p>The EO Framework™ Process defines structured execution methodology that ensures coordinated delivery across all project phases.</p>
-
-          <h3>Process Foundation</h3>
-          <p>EO Framework™ processes are built on core principles:</p>
-          <ul>
-            <li>Standardized workflows and handoff procedures</li>
-            <li>Clear role definitions and responsibilities</li>
-            <li>Continuous communication and feedback loops</li>
-            <li>Quality gates and success criteria validation</li>
-          </ul>
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
@@ -764,7 +784,16 @@ title: documentation
           <h2>Process Overview</h2>
         </div>
         <div class="content-body">
-          <p>Process overview provides comprehensive understanding of the structured methodologies used throughout the EO Framework™ lifecycle.</p>
+          <p>The EO Framework™ Process defines structured execution methodology that ensures coordinated delivery across all project phases.</p>
+
+          <h3>Process Foundation</h3>
+          <p>EO Framework™ processes are built on core principles:</p>
+          <ul>
+            <li>Standardized workflows and handoff procedures</li>
+            <li>Clear role definitions and responsibilities</li>
+            <li>Continuous communication and feedback loops</li>
+            <li>Quality gates and success criteria validation</li>
+          </ul>
 
           <h3>Process Components</h3>
           <ul>
@@ -1563,36 +1592,109 @@ document.addEventListener('DOMContentLoaded', function() {
   const tocItems = document.querySelectorAll('.toc-main-item, .toc-sub-item');
   const contentSections = document.querySelectorAll('.content-section');
   const navLinks = document.querySelectorAll('.content-navigation a');
-  
+  const expandableItems = document.querySelectorAll('.toc-expandable');
+
   function showSection(sectionId) {
     // Remove active class from all TOC items
     tocItems.forEach(tocItem => tocItem.classList.remove('active'));
-    
+
     // Add active class to corresponding TOC item
     const tocItem = document.querySelector(`[data-section="${sectionId}"]`);
     if (tocItem) {
       tocItem.classList.add('active');
+
+      // If this is a sub-item, make sure its parent section is expanded
+      if (tocItem.classList.contains('toc-sub-item')) {
+        const parentSection = tocItem.closest('.toc-section');
+        if (parentSection) {
+          const parentMainItem = parentSection.querySelector('.toc-main-item');
+          const parentSubsections = parentSection.querySelector('.toc-subsections');
+          if (parentMainItem && parentSubsections) {
+            expandSection(parentMainItem, parentSubsections);
+          }
+        }
+      }
     }
-    
+
     // Hide all content sections
     contentSections.forEach(section => section.classList.remove('active'));
-    
+
     // Show selected content section
     const targetSection = document.getElementById(sectionId);
     if (targetSection) {
       targetSection.classList.add('active');
     }
   }
-  
-  // Handle TOC clicks
-  tocItems.forEach(item => {
+
+  function expandSection(mainItem, subsections) {
+    const toggle = mainItem.querySelector('.toc-toggle');
+    if (toggle) {
+      toggle.textContent = '−';
+      mainItem.classList.remove('collapsed');
+      mainItem.classList.add('expanded');
+      subsections.style.display = 'flex';
+      subsections.classList.remove('collapsed');
+      subsections.classList.add('expanded');
+    }
+  }
+
+  function collapseSection(mainItem, subsections) {
+    const toggle = mainItem.querySelector('.toc-toggle');
+    if (toggle) {
+      toggle.textContent = '+';
+      mainItem.classList.remove('expanded');
+      mainItem.classList.add('collapsed');
+      subsections.style.display = 'none';
+      subsections.classList.remove('expanded');
+      subsections.classList.add('collapsed');
+    }
+  }
+
+  function toggleSection(mainItem) {
+    const subsections = mainItem.parentElement.querySelector('.toc-subsections');
+    if (!subsections) return;
+
+    const isExpanded = mainItem.classList.contains('expanded');
+
+    if (isExpanded) {
+      collapseSection(mainItem, subsections);
+    } else {
+      expandSection(mainItem, subsections);
+    }
+  }
+
+  // Handle expandable section clicks
+  expandableItems.forEach(item => {
     item.addEventListener('click', function(e) {
       e.preventDefault();
+
+      // Check if user clicked on the toggle icon or text
+      const clickedOnToggle = e.target.classList.contains('toc-toggle');
       const sectionId = this.getAttribute('data-section');
-      showSection(sectionId);
+
+      // Always toggle the section for expandable items
+      toggleSection(this);
+
+      // Only show the main section content if it has its own content (not just a toggle-only section)
+      // For sections that are containers for sub-items, we don't want to show content, just toggle
+      const toggleOnlySections = ['eo-concepts', 'templates', 'roles', 'scripts', 'process'];
+      if (!toggleOnlySections.includes(sectionId)) {
+        showSection(sectionId);
+      }
     });
   });
-  
+
+  // Handle regular TOC item clicks (non-expandable and sub-items)
+  tocItems.forEach(item => {
+    if (!item.classList.contains('toc-expandable')) {
+      item.addEventListener('click', function(e) {
+        e.preventDefault();
+        const sectionId = this.getAttribute('data-section');
+        showSection(sectionId);
+      });
+    }
+  });
+
   // Handle navigation button clicks
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {

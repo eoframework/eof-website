@@ -490,6 +490,24 @@ html {
   transition: color 0.2s ease;
   border: none;
   border-radius: 0;
+  position: relative;
+}
+
+.toc-main-item.toc-expandable {
+  cursor: pointer;
+}
+
+.toc-toggle {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.toc-main-item:hover .toc-toggle {
+  color: #c00;
 }
 
 .toc-main-item:hover {
@@ -509,6 +527,16 @@ html {
   display: flex;
   flex-direction: column;
   gap: 0;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.toc-subsections.collapsed {
+  display: none;
+}
+
+.toc-subsections.expanded {
+  display: flex;
 }
 
 .toc-sub-item {
