@@ -542,6 +542,7 @@ html {
 .toc-sub-item {
   display: block;
   padding: 0.15rem 0;
+  padding-left: calc(1em + 0.5rem);
   background: transparent;
   color: #666;
   text-decoration: none;

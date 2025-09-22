@@ -6,7 +6,7 @@ title: documentation
 <div class="docs-layout">
   <div class="docs-toc">
     <div class="sidebar-section">
-      <h3>table of contents</h3>
+      <h3>table of contents <span id="toggle-all" class="toc-toggle-all" style="cursor: pointer; font-size: 0.9em; margin-left: 0.5rem; color: #c00;">+</span></h3>
       <nav class="toc-nav">
         <div class="toc-section">
           <a href="#" class="toc-main-item toc-expandable expanded" data-section="eo-concepts">
@@ -74,6 +74,7 @@ title: documentation
             User Guide
           </a>
           <div class="toc-subsections" style="display: none;">
+            <a href="#" class="toc-sub-item" data-section="user-guide-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="getting-started">Getting Started</a>
             <a href="#" class="toc-sub-item" data-section="navigation">Navigation</a>
             <a href="#" class="toc-sub-item" data-section="user-workflows">User Workflows</a>
@@ -87,6 +88,7 @@ title: documentation
             Developer Guide
           </a>
           <div class="toc-subsections" style="display: none;">
+            <a href="#" class="toc-sub-item" data-section="developer-guide-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="setup-environment">Setup Environment</a>
             <a href="#" class="toc-sub-item" data-section="api-reference">API Reference</a>
             <a href="#" class="toc-sub-item" data-section="integration-patterns">Integration Patterns</a>
@@ -101,6 +103,7 @@ title: documentation
             Advocacy Guide
           </a>
           <div class="toc-subsections" style="display: none;">
+            <a href="#" class="toc-sub-item" data-section="advocacy-guide-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="community-engagement">Community Engagement</a>
             <a href="#" class="toc-sub-item" data-section="content-creation">Content Creation</a>
             <a href="#" class="toc-sub-item" data-section="event-planning">Event Planning</a>
@@ -113,6 +116,7 @@ title: documentation
             Examples
           </a>
           <div class="toc-subsections" style="display: none;">
+            <a href="#" class="toc-sub-item" data-section="examples-overview">Overview</a>
             <a href="#" class="toc-sub-item" data-section="cloud-migration">Cloud Migration</a>
             <a href="#" class="toc-sub-item" data-section="security-implementation">Security Implementation</a>
             <a href="#" class="toc-sub-item" data-section="data-modernization">Data Modernization</a>
@@ -964,9 +968,25 @@ title: documentation
           <h2>User Guide</h2>
         </div>
         <div class="content-body">
+          <p>Click to expand and explore user guide topics.</p>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="process-delivery">← <span class="nav-label">Previous:</span> <span class="nav-content">Process Delivery</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="user-guide-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="user-guide-overview">
+        <div class="content-header">
+          <h2>User Guide Overview</h2>
+        </div>
+        <div class="content-body">
           <p>Comprehensive guide for end users working with the EO Framework™ platform and tools.</p>
-          
-          <h3>Overview</h3>
+
           <p>This user guide provides step-by-step instructions for:</p>
           <ul>
             <li>Navigating the platform interface</li>
@@ -977,7 +997,7 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="process-delivery">← <span class="nav-label">Previous:</span> <span class="nav-content">Process Delivery</span></a>
+            <a href="#" data-section="user-guide">← <span class="nav-label">Previous:</span> <span class="nav-content">User Guide</span></a>
           </div>
           <div class="nav-next">
             <a href="#" data-section="getting-started"><span class="nav-label">Next:</span> <span class="nav-content">Getting Started</span> →</a>
@@ -1036,7 +1056,7 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="getting-started">← <span class="nav-label">Previous:</span> <span class="nav-content">Getting Started</span></a>
+            <a href="#" data-section="user-guide-overview">← <span class="nav-label">Previous:</span> <span class="nav-content">Overview</span></a>
           </div>
           <div class="nav-next">
             <a href="#" data-section="user-workflows"><span class="nav-label">Next:</span> <span class="nav-content">User Workflows</span> →</a>
@@ -1100,9 +1120,25 @@ title: documentation
           <h2>Developer Guide</h2>
         </div>
         <div class="content-body">
+          <p>Click to expand and explore developer guide topics.</p>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="best-practices">← <span class="nav-label">Previous:</span> <span class="nav-content">Best Practices</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="developer-guide-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="developer-guide-overview">
+        <div class="content-header">
+          <h2>Developer Guide Overview</h2>
+        </div>
+        <div class="content-body">
           <p>Technical documentation for developers integrating with and extending the EO Framework™.</p>
-          
-          <h3>Development Overview</h3>
+
           <p>The EO Framework™ provides various integration points for developers:</p>
           <ul>
             <li>REST API for programmatic access</li>
@@ -1113,7 +1149,7 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="best-practices">← <span class="nav-label">Previous:</span> <span class="nav-content">Best Practices</span></a>
+            <a href="#" data-section="developer-guide">← <span class="nav-label">Previous:</span> <span class="nav-content">Developer Guide</span></a>
           </div>
           <div class="nav-next">
             <a href="#" data-section="setup-environment"><span class="nav-label">Next:</span> <span class="nav-content">Setup Environment</span> →</a>
@@ -1252,9 +1288,25 @@ title: documentation
           <h2>Advocacy Guide</h2>
         </div>
         <div class="content-body">
+          <p>Click to expand and explore advocacy guide topics.</p>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="deployment">← <span class="nav-label">Previous:</span> <span class="nav-content">Deployment</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="advocacy-guide-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="advocacy-guide-overview">
+        <div class="content-header">
+          <h2>Advocacy Guide Overview</h2>
+        </div>
+        <div class="content-body">
           <p>Guide for community advocates and champions promoting EO Framework™ adoption and engagement.</p>
-          
-          <h3>Advocacy Goals</h3>
+
           <p>Effective advocacy focuses on:</p>
           <ul>
             <li>Building awareness and understanding</li>
@@ -1265,7 +1317,7 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="deployment">← <span class="nav-label">Previous:</span> <span class="nav-content">Deployment</span></a>
+            <a href="#" data-section="advocacy-guide">← <span class="nav-label">Previous:</span> <span class="nav-content">Advocacy Guide</span></a>
           </div>
           <div class="nav-next">
             <a href="#" data-section="community-engagement"><span class="nav-label">Next:</span> <span class="nav-content">Community Engagement</span> →</a>
@@ -1362,9 +1414,25 @@ title: documentation
           <h2>Examples</h2>
         </div>
         <div class="content-body">
+          <p>Click to expand and explore example topics.</p>
+        </div>
+        <div class="content-navigation">
+          <div class="nav-previous">
+            <a href="#" data-section="event-planning">← <span class="nav-label">Previous:</span> <span class="nav-content">Event Planning</span></a>
+          </div>
+          <div class="nav-next">
+            <a href="#" data-section="examples-overview"><span class="nav-label">Next:</span> <span class="nav-content">Overview</span> →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section" id="examples-overview">
+        <div class="content-header">
+          <h2>Examples Overview</h2>
+        </div>
+        <div class="content-body">
           <p>Real-world examples and practical implementations of the EO Framework™ across various technology domains.</p>
-          
-          <h3>Example Categories</h3>
+
           <p>Our examples cover a wide range of technology scenarios:</p>
           <ul>
             <li>Cloud migration and modernization projects</li>
@@ -1377,7 +1445,7 @@ title: documentation
         </div>
         <div class="content-navigation">
           <div class="nav-previous">
-            <a href="#" data-section="event-planning">← <span class="nav-label">Previous:</span> <span class="nav-content">Event Planning</span></a>
+            <a href="#" data-section="examples">← <span class="nav-label">Previous:</span> <span class="nav-content">Examples</span></a>
           </div>
           <div class="nav-next">
             <a href="#" data-section="cloud-migration"><span class="nav-label">Next:</span> <span class="nav-content">Cloud Migration</span> →</a>
@@ -1677,7 +1745,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Only show the main section content if it has its own content (not just a toggle-only section)
       // For sections that are containers for sub-items, we don't want to show content, just toggle
-      const toggleOnlySections = ['eo-concepts', 'templates', 'roles', 'scripts', 'process'];
+      const toggleOnlySections = ['eo-concepts', 'templates', 'roles', 'scripts', 'process', 'user-guide', 'developer-guide', 'advocacy-guide', 'examples'];
       if (!toggleOnlySections.includes(sectionId)) {
         showSection(sectionId);
       }
@@ -1701,6 +1769,46 @@ document.addEventListener('DOMContentLoaded', function() {
       e.preventDefault();
       const sectionId = this.getAttribute('data-section');
       showSection(sectionId);
+    });
+  });
+
+  // Handle toggle all functionality
+  const toggleAllButton = document.getElementById('toggle-all');
+  let allExpanded = false; // Default state: all collapsed except Concepts
+
+  toggleAllButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    allExpanded = !allExpanded;
+
+    // Update button text
+    this.textContent = allExpanded ? '−' : '+';
+
+    // Toggle all expandable sections
+    expandableItems.forEach(item => {
+      const subsections = item.parentElement.querySelector('.toc-subsections');
+      const toggle = item.querySelector('.toc-toggle');
+
+      if (allExpanded) {
+        // Expand all
+        item.classList.remove('collapsed');
+        item.classList.add('expanded');
+        subsections.style.display = 'flex';
+        toggle.textContent = '−';
+      } else {
+        // Collapse all except Concepts (keep it expanded as default)
+        const sectionId = item.getAttribute('data-section');
+        if (sectionId === 'eo-concepts') {
+          item.classList.remove('collapsed');
+          item.classList.add('expanded');
+          subsections.style.display = 'flex';
+          toggle.textContent = '−';
+        } else {
+          item.classList.remove('expanded');
+          item.classList.add('collapsed');
+          subsections.style.display = 'none';
+          toggle.textContent = '+';
+        }
+      }
     });
   });
 });
